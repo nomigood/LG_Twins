@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* ============================================================
+ * DigitalBaySystem
+ * nomi (nomi@dbays.com)
+ * 2013.03.15
+============================================================ */
+
+/**************************************************************
+ * board search
+ **************************************************************/
+.board_srch {margin-top:10px;padding:12px 0 11px;width:100%;background:url(../img/common/board_srch_bg.png) repeat-x 0 0;overflow:hidden;}
+.board_srch .select_area {float:left;margin-left:20px;}
+.board_srch .input_area {float:right;width:auto;margin-right:20px;}
+.board_srch select {float:left;margin-right:5px;width:82px;height:20px;border:1px solid #820030;}
+.board_srch input {float:left;padding-left:3px;width:230px;height:16px;color:#fff;border:1px solid #820030;background:#c83c80;}
+.board_srch input[type=button] {float:left;margin-left:5px;width:23px;height:20px;border:none;background:url(../img/common/btn_srch.png) repeat-x 0 0;}
+
+/**************************************************************
+ * board list
+ **************************************************************/
+.board_list {margin-top:15px;width:100%;}
+.board_list .number {color:#666;}
+.board_list .subject {text-align:left;color:#454545;}
+.board_list thead tr th {height:27px;background: #5f5f5f;color:#fff;font-weight:bold;}
+.board_list tbody tr {height:27px;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+.board_list tbody tr.notice {background:#f5f5f5;}
+.board_list tbody tr td {text-align:center;color:#777;}
+.board_list tfoot tr td {padding:30px 0;text-align:center;color:#070707;}
+.board_list tfoot tr td.pagination a {padding:0 8px;height:24px;line-height:24px;vertical-align:middle;font-size:1.083333333333333em;font-weight:bold;}
+.board_list tfoot tr td.pagination a.active {font-size:1.083333333333333em;font-weight:bold;color:#ff0658;}
+.board_list tfoot tr td.pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.board_list tfoot tr td.pagination .prev {margin-left:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.board_list tfoot tr td.pagination .next {margin-right:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.board_list tfoot tr td.pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+
+.board_btn {float:right;}
+
+.btn_confirm {width:55px;height:23px;border:none;background:url(../img/common/btn_confirm.png) repeat-x 0 0;}
+.btn_cancel {width:55px;height:23px;border:none;background:url(../img/common/btn_cancel.png) repeat-x 0 0;}
+.btn_delete {width:55px;height:23px;border:none;background:url(../img/common/btn_delete.png) repeat-x 0 0;}
+.btn_edit {width:55px;height:23px;border:none;background:url(../img/common/btn_edit.png) repeat-x 0 0;}
+.btn_write {width:55px;height:23px;border:none;background:url(../img/common/btn_write.png) repeat-x 0 0;}
+
+.board_caution {margin-top:30px;border:1px solid #e6e8eb}
+.board_caution ul {padding:15px 25px 20px}
+.board_caution ul li {margin-left:15px;text-indent:-2px;list-style:disc;line-height:20px;color:#606a7f;}

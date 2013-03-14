@@ -52,3 +52,4 @@
 
 /* display none*/
 .dnone {display:none;}
+.hidden {visibility: hidden;font-size:0;}
