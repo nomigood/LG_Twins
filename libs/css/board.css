@@ -22,16 +22,17 @@
 .board_list .number {color:#666;}
 .board_list .subject {text-align:left;color:#454545;}
 .board_list thead tr th {height:27px;background: #5f5f5f;color:#fff;font-weight:bold;}
-.board_list tbody tr {height:27px;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+.board_list tbody tr {height:27px;}
 .board_list tbody tr.notice {background:#f5f5f5;}
-.board_list tbody tr td {text-align:center;color:#777;}
-.board_list tfoot tr td {padding:30px 0;text-align:center;color:#070707;}
-.board_list tfoot tr td.pagination a {padding:0 8px;height:24px;line-height:24px;vertical-align:middle;font-size:1.083333333333333em;font-weight:bold;}
-.board_list tfoot tr td.pagination a.active {font-size:1.083333333333333em;font-weight:bold;color:#ff0658;}
-.board_list tfoot tr td.pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.board_list tfoot tr td.pagination .prev {margin-left:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.board_list tfoot tr td.pagination .next {margin-right:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.board_list tfoot tr td.pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.board_list tbody tr td {text-align:center;color:#777;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+
+.pagination {padding:30px 0;text-align:center;color:#070707;display:block;}
+.pagination a {padding:0 8px;height:24px;line-height:24px;font-size:1.083333333333333em;font-weight:bold;vertical-align:top;display:inline-block;}
+.pagination a.active {font-weight:bold;color:#ff0658;}
+.pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .prev {margin-left:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .next {margin-right:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 
 .board_btn {float:right;}
 

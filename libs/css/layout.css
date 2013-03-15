@@ -15,7 +15,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;font-style:normal;}
-body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,Apple Gothic,Tahoma,sans-serif;font-size:12px;-webkit-text-size-adjust:none;}
+body,input,textarea,select,button,table{font-family:'맑은고딕',Malgun Gothic,dotum,sans-serif;font-size:12px;-webkit-text-size-adjust:none;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 body {line-height: 1;}
@@ -50,7 +50,8 @@ a:active {color: #c81249; text-decoration: none; }
 html,body {width:100%;height:100%}
 #wrap {width:100%;height:100%;min-width:1000px;}
 #header {width:100%;overflow:hidden;}
-#container {height:auto;overflow:hidden;}
+#container {position:relative;margin:0 auto;width:980px;height:auto;}
+#sub_container {margin:0 auto;padding-bottom:30px;width:980px;height:auto;background:url(../img/common/sub_line_bg.png) repeat-y 0 0;overflow:hidden;}
 #aside {float:left;width:140px;height:100%;}
 #section {float:left;margin-left:30px;width:810px;height:100%;}
 #footer {padding:30px 0;height:59px;border-top:1px solid #e0e0e0;overflow:hidden;}
@@ -58,7 +59,6 @@ html,body {width:100%;height:100%}
 .sub_header {height:195px;background:url(../img/common/sub_header_bg.png) repeat-x 0 0;}
 .content_wrap {position:relative;margin:0 auto;width:980px;height:auto;}
 .visual_wrap {margin:0 auto;width:1000px;height:auto;overflow:hidden;}
-.sub_content_wrap {margin:0 auto;padding-bottom:30px;width:980px;height:auto;background:url(../img/common/sub_line_bg.png) repeat-y 0 0;overflow:hidden;}
 .article {position:relative;width:100%;overflow:hidden;}
 
 /**************************************************************
@@ -87,14 +87,18 @@ html,body {width:100%;height:100%}
  * aside
  **************************************************************/
 #aside h2 {width:130px;height:58px;line-height:58px;border:1px solid #e0e0e0;border-left:none;border-right:none;text-align:center;}
-#aside ul li {padding-left:20px;width:120px;height:30px;line-height:27px;}
+#aside ul li {padding-left:10px;width:130px;height:30px;line-height:27px;}
+
+#aside ul li a {color:#777}
+#aside ul li:hover {background:url(../img/common/snb_active.png) no-repeat 0 0;}
+#aside ul li:hover a {color:#fff;font-weight:bold}
 
 /**************************************************************
  * section
  **************************************************************/
-#container .path {margin:20px 0 50px 0;}
-#container .path a {color:#a0a0a0;}
-#container .path em {margin:0 5px;color:#e3afbe}
+.path {margin:20px 0 50px 0;font-size:0.9166666666666667em}
+.path a {color:#a0a0a0;}
+.path em {margin:0 5px;color:#e3afbe}
 
 /**************************************************************
  * footer
