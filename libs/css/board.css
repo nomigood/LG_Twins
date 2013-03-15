@@ -12,6 +12,7 @@
 .board_srch .select_area {float:left;margin-left:20px;}
 .board_srch .input_area {float:right;width:auto;margin-right:20px;}
 .board_srch select {float:left;margin-right:5px;width:82px;height:20px;border:1px solid #820030;}
+.board_srch label {display:none}
 .board_srch input {float:left;padding-left:3px;width:230px;height:16px;color:#fff;border:1px solid #820030;background:#c83c80;}
 .board_srch input[type=button] {float:left;margin-left:5px;width:23px;height:20px;border:none;background:url(../img/common/btn_srch.png) repeat-x 0 0;}
 
