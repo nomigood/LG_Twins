@@ -23,25 +23,39 @@
 .board_list .number {color:#666;}
 .board_list .subject {text-align:left;color:#454545;}
 .board_list thead tr th {height:27px;background: #5f5f5f;color:#fff;font-weight:bold;}
-.board_list tbody tr {height:27px;}
 .board_list tbody tr.notice {background:#f5f5f5;}
-.board_list tbody tr td {text-align:center;color:#777;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+.board_list tbody tr td {padding:6px 0;height:15px;line-height:15px;text-align:center;color:#777;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+.board_list tbody tr td i {margin-left:5px;}
+.board_list tbody tr td i.new {width:32px;height:13px;background:url(../img/common/icon_new.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
+.board_list tbody tr td i.mobile {width:14px;height:15px;background:url(../img/common/icon_mobile.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
 
 .pagination {padding:30px 0;text-align:center;color:#070707;display:block;}
 .pagination a {padding:0 8px;height:24px;line-height:24px;font-size:1.083333333333333em;font-weight:bold;vertical-align:top;display:inline-block;}
 .pagination a.active {font-weight:bold;color:#ff0658;}
 .pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 .pagination .prev {margin-left:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .next {margin-right:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .next {margin-right:-3px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 .pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 
 .board_btn {float:right;}
 
-.btn_confirm {width:55px;height:23px;border:none;background:url(../img/common/btn_confirm.png) repeat-x 0 0;}
-.btn_cancel {width:55px;height:23px;border:none;background:url(../img/common/btn_cancel.png) repeat-x 0 0;}
-.btn_delete {width:55px;height:23px;border:none;background:url(../img/common/btn_delete.png) repeat-x 0 0;}
-.btn_edit {width:55px;height:23px;border:none;background:url(../img/common/btn_edit.png) repeat-x 0 0;}
-.btn_write {width:55px;height:23px;border:none;background:url(../img/common/btn_write.png) repeat-x 0 0;}
+.btn_prev,
+.btn_next,
+.btn_list,
+.btn_confirm,
+.btn_cancel,
+.btn_delete,
+.btn_edit,
+.btn_write {width:54px;height:23px;border:none;background:url(../img/common/board_btn.png) repeat-x 0 0;}
+
+.btn_prev {background-position-y: 0;}
+.btn_next {background-position-y: -23px;}
+.btn_list {background-position-y: -46px;}
+.btn_confirm {background-position-y: -69px;}
+.btn_cancel {background-position-y: -92px;}
+.btn_delete {background-position-y: -115px;}
+.btn_edit {background-position-y: -138px;}
+.btn_write {background-position-y: -161px;}
 
 .board_caution {margin-top:30px;border:1px solid #e6e8eb}
 .board_caution ul {padding:15px 25px 20px}

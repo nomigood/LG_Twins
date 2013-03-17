@@ -49,7 +49,7 @@ a:active {color: #c81249; text-decoration: none; }
  **************************************************************/
 html,body {width:100%;height:100%}
 #wrap {width:100%;height:100%;min-width:1000px;}
-#header {width:100%;overflow:hidden;}
+#header {width:100%;}
 #container {position:relative;margin:0 auto;width:980px;height:auto;}
 #sub_container {margin:0 auto;padding-bottom:30px;width:980px;height:auto;background:url(../img/common/sub_line_bg.png) repeat-y 0 0;overflow:hidden;}
 #aside {float:left;width:140px;height:100%;}
@@ -73,10 +73,80 @@ html,body {width:100%;height:100%}
 /**************************************************************
  * gnb
  **************************************************************/
-#header .gnb {position:relative;left:150px;height:35px;}
-#header .gnb li {float:left;padding:0 25px;height:35px;line-height:35px;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
+
+/* gnb size width:75px height:16px */
+/* gnb size width:76px height:16px */
+/* gnb 2depth size width:76px height:13px */
+ 
+#header .gnb {padding:10px 0 0 150px;width:850px;height:25px;}
+#header .gnb li {float:left;width:105px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
 #header .gnb li:last-of-type {padding-right:0;background:none;}
-#header .gnb li a {color:#fff;}
+#header .gnb li a {height:16px;background: url(../img/common/gnb.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:inline-block;overflow:hidden;}
+#header .gnb li a.active {background-position-x: -75px;}
+#header .gnb li a:hover {background-position-x: -75px;}
+#header .gnb li a.news {width:67px;background-position-y: 0}
+#header .gnb li a.info {width:54px;background-position-y: -16px}
+#header .gnb li a.team {width:75px;background-position-y: -32px}
+#header .gnb li a.about {width:54px;background-position-y: -48px}
+#header .gnb li a.mall {width:41px;background-position-y: -64px}
+#header .gnb li a.community {width:63px;background-position-y: -80px}
+#header .gnb li a.club {width:75px;background-position-y: -96px}
+#header .gnb li a.customer {width:54px;background-position-y: -112px}
+
+#header .gnb_2depth {position:absolute;padding-top:15px;width:978px;height:auto;background:#dedede;border:1px solid #af124c;overflow:hidden;z-index: 10000}
+#header .gnb_2depth span {float:left;width:141px;}
+#header .gnb_2depth ul {float:left;margin-bottom:15px;height:190px;background:url(../img/common/gnb_bar_02.png) repeat-y right top;}
+#header .gnb_2depth ul.news {margin-left:7px;}
+#header .gnb_2depth ul.customer {width:50px;background: none;}
+#header .gnb_2depth ul li {width:90px;padding-left:15px;line-height:27px;}
+
+#header .gnb_2depth ul li a {width:76px;height:13px;background: url(../img/common/gnb_2depth.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:inline-block;overflow:hidden;}
+#header .gnb_2depth li a:hover {background-position-x: -76px;}
+
+#header .gnb_2depth li a.news01 {background-position-y: 0}
+#header .gnb_2depth li a.news02 {background-position-y: -13px}
+#header .gnb_2depth li a.news03 {background-position-y: -26px}
+#header .gnb_2depth li a.news04 {background-position-y: -39px}
+
+#header .gnb_2depth li a.info01 {background-position-y: -52px}
+#header .gnb_2depth li a.info02 {background-position-y: -65px}
+#header .gnb_2depth li a.info03 {background-position-y: -78px}
+#header .gnb_2depth li a.info04 {background-position-y: -91px}
+#header .gnb_2depth li a.info05 {background-position-y: -104px}
+#header .gnb_2depth li a.info06 {background-position-y: -117px}
+#header .gnb_2depth li a.info07 {background-position-y: -130px}
+
+#header .gnb_2depth li a.team01 {background-position-y: -143px}
+#header .gnb_2depth li a.team02 {background-position-y: -156px}
+#header .gnb_2depth li a.team03 {background-position-y: -169px}
+#header .gnb_2depth li a.team04 {background-position-y: -182px}
+#header .gnb_2depth li a.team05 {background-position-y: -195px}
+#header .gnb_2depth li a.team06 {background-position-y: -208px}
+
+#header .gnb_2depth li a.about01 {background-position-y: -221px}
+#header .gnb_2depth li a.about02 {background-position-y: -234px}
+#header .gnb_2depth li a.about03 {background-position-y: -247px}
+#header .gnb_2depth li a.about04 {background-position-y: -260px}
+
+#header .gnb_2depth li a.mall01 {background-position-y: -273px}
+#header .gnb_2depth li a.mall02 {background-position-y: -286px}
+
+#header .gnb_2depth li a.community01 {background-position-y: -299px}
+#header .gnb_2depth li a.community02 {background-position-y: -312px}
+#header .gnb_2depth li a.community03 {background-position-y: -325px}
+#header .gnb_2depth li a.community04 {background-position-y: -338px}
+#header .gnb_2depth li a.community05 {background-position-y: -351px}
+#header .gnb_2depth li a.community06 {background-position-y: -364px}
+#header .gnb_2depth li a.community07 {background-position-y: -377px}
+
+#header .gnb_2depth li a.club01 {background-position-y: -390px}
+#header .gnb_2depth li a.club02 {background-position-y: -403px}
+#header .gnb_2depth li a.club03 {background-position-y: -416px}
+#header .gnb_2depth li a.club04 {background-position-y: -429px}
+
+#header .gnb_2depth li a.customer01 {background-position-y: -442px}
+#header .gnb_2depth li a.customer02 {background-position-y: -455px}
+
 
 /**************************************************************
  * visual
@@ -86,19 +156,97 @@ html,body {width:100%;height:100%}
 /**************************************************************
  * aside
  **************************************************************/
-#aside h2 {width:130px;height:58px;line-height:58px;border:1px solid #e0e0e0;border-left:none;border-right:none;text-align:center;}
-#aside ul li {padding-left:10px;width:130px;height:30px;line-height:27px;}
+#aside h2 {padding:20px 0;width:130px;line-height:58px;border:1px solid #e0e0e0;border-left:none;border-right:none;text-align:center;}
+#aside .box {width:130px;height:58px;line-height:58px;border:1px solid #e0e0e0;border-left:none;border-right:none;text-align:center;}
 
-#aside ul li a {color:#777}
-#aside ul li:hover {background:url(../img/common/snb_active.png) no-repeat 0 0;}
-#aside ul li:hover a {color:#fff;font-weight:bold}
+/**************************************************************
+ * snb
+ **************************************************************/
+ 
+/*
+ snb size on,off width:95px height:13px
+ snb size active width:102px height:13px
+*/
+
+#aside .snb {margin:15px 0;width:140;height:auto;overflow:hidden;}
+#aside .snb li {padding:7px 0 9px 10px;width:130px;height:auto;}
+#aside .snb li.active {background:url(../img/common/snb_active.png) no-repeat 0 0;}
+#aside .snb li.active a {background-position-x: -190px;}
+#aside .snb li.active a:hover {background-position-x: -190px;}
+
+#aside .snb li a {width:95px;height:14px;background: url(../img/common/snb.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:block;overflow:hidden;}
+#aside .snb li a:hover {background-position-x: -95px;}
+
+#aside .snb li a.news01 {background-position-y: 0}
+#aside .snb li a.news02 {background-position-y: -14px}
+#aside .snb li a.news03 {background-position-y: -28px}
+#aside .snb li a.news04 {background-position-y: -42px}
+
+#aside .snb li a.info01 {background-position-y: -56px}
+#aside .snb li a.info02 {background-position-y: -70px}
+#aside .snb li a.info03 {background-position-y: -84px}
+#aside .snb li a.info04 {background-position-y: -98px}
+#aside .snb li a.info05 {background-position-y: -112px}
+#aside .snb li a.info06 {background-position-y: -126px}
+#aside .snb li a.info07 {background-position-y: -140px}
+
+#aside .snb li a.team01 {background-position-y: -154px}
+#aside .snb li a.team02 {background-position-y: -168px}
+#aside .snb li a.team03 {background-position-y: -182px}
+#aside .snb li a.team04 {background-position-y: -196px}
+#aside .snb li a.team05 {background-position-y: -210px}
+#aside .snb li a.team06 {background-position-y: -224px}
+
+#aside .snb li a.about01 {background-position-y: -238px}
+#aside .snb li a.about02 {background-position-y: -252px}
+#aside .snb li a.about03 {background-position-y: -266px}
+#aside .snb li a.about04 {background-position-y: -280px}
+
+#aside .snb li a.mall01 {background-position-y: -294px}
+#aside .snb li a.mall02 {background-position-y: -308px}
+
+#aside .snb li a.community01 {background-position-y: -322px}
+#aside .snb li a.community02 {background-position-y: -336px}
+#aside .snb li a.community03 {background-position-y: -350px}
+#aside .snb li a.community04 {background-position-y: -364px}
+#aside .snb li a.community05 {background-position-y: -378px}
+#aside .snb li a.community06 {background-position-y: -392px}
+#aside .snb li a.community07 {background-position-y: -406px}
+
+#aside .snb li a.club01 {background-position-y: -420px}
+#aside .snb li a.club02 {background-position-y: -434px}
+#aside .snb li a.club03 {background-position-y: -448px}
+#aside .snb li a.club04 {background-position-y: -462px}
+
+#aside .snb li a.customer01 {background-position-y: -476px}
+#aside .snb li a.customer02 {background-position-y: -490px}
+
+#aside .snb li .snb_2depth {margin-top:15px;width:130;height:auto;overflow:hidden;}
+#aside .snb li .snb_2depth li {padding:4px 0;width:130px;}
+#aside .snb li .snb_2depth li a {width:79px;height:13px;background: url(../img/common/snb_2depth.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:block;overflow:hidden;}
+#aside .snb li .snb_2depth li a:hover {background-position-x: -79px;}
+#aside .snb li .snb_2depth li a.active {background-position-x: -79px;}
+
+#aside .snb li .snb_2depth li a.about_01_01 {background-position-y: 0}
+#aside .snb li .snb_2depth li a.about_01_02 {background-position-y: -13px}
+#aside .snb li .snb_2depth li a.about_01_03 {background-position-y: -26px}
+#aside .snb li .snb_2depth li a.about_01_04 {background-position-y: -39px}
+#aside .snb li .snb_2depth li a.about_01_05 {background-position-y: -52px}
+#aside .snb li .snb_2depth li a.about_01_06 {background-position-y: -65px}
+
+#aside .snb li .snb_2depth li a.about_02_01 {background-position-y: -78px}
+#aside .snb li .snb_2depth li a.about_02_02 {background-position-y: -91px}
+
 
 /**************************************************************
  * section
  **************************************************************/
-.path {margin:20px 0 50px 0;font-size:0.9166666666666667em}
+.path {margin:20px 0 45px 0;font-size:0.9166666666666667em}
 .path a {color:#a0a0a0;}
 .path em {margin:0 5px;color:#e3afbe}
+
+.pg_title {float:left;margin-bottom:40px;}
+.pg_ad {float:right;}
 
 /**************************************************************
  * footer
@@ -110,7 +258,3 @@ html,body {width:100%;height:100%}
 #footer .foot_ctn a {padding:0 8px 10px;height:13px;line-height:13px;background:url(../img/common/foot_bar.png) no-repeat 0 20%;color:#606060;font-weight:bold;}
 #footer .foot_ctn address {line-height:16px;color:#989898;}
 #footer .Secured {position:absolute;right:0;top:-8px;width:auto;height:auto;overflow:hidden}
-
-
-
-
