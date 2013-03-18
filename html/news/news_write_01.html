@@ -141,53 +141,37 @@
 				</div>
 				<div class="article">
 					<form class="board_write_header">
-						<ul>
-							<li>
-								<strong><label for="subject">제목</label></strong>
-								<input type="text" id="subject" name="" />
-							</li>
-							<li>
-								<strong><label for="date">등록일</label></strong>
-								<input type="text" id="date" name="" /><input type="button" id="" name=""/>
-							</li>
-							<li>
-								<span>
-									<strong><label for="movie">동영상</label></strong>
-									<input type="file" id="movie" name="" />
-								</span>
-								<span>
-									<strong>공개여부</strong>
-									<label for="release1">공개</label>
-									<input type="radio" id="release1" name="group1" value="1"/>
-									<label for="release2">비공개</label>
-									<input type="radio" id="release2" name="group1" value="2"/>
-								</span>
-								<span>
-									<strong><label for="align">동영상정렬</label></strong>
-									<select id="align">
-										<option>위</option>
-										<option>가운데</option>
-										<option>아래</option>
-									</select>
-								</span>
-							</li>
-							<li>
-								<span>
-									<strong>디스플레이</strong>
-									<label for="display1">공개</label>
-									<input type="radio" id="display1" name="display" value="1"/>
-									<label for="display2">비공개</label>
-									<input type="radio" id="display2" name="display" value="2"/>
-								</span>
-								<span>
-									<strong>메인노출</strong>
-									<label for="main_view1">공개</label>
-									<input type="radio" id="main_view1" name="main_view" value="1"/>
-									<label for="main_view2">비공개</label>
-									<input type="radio" id="main_view2" name="main_view" value="2"/>
-								</span>
-							</li>
-						</ul>
+						<dl>
+							<dt><label for="subject">제목</label></dt>
+							<dd><input type="text" id="subject" name="" /></dd>
+						</dl>
+						<dl>
+							<dt><label for="date">등록일</label></dt>
+							<dd><input type="text" id="date" name="" /><input type="button" id="" name=""/></dd>
+						</dl>
+						<dl>
+							<dt><label for="movie">동영상</label></dt>
+							<dd><input type="file" id="movie" name="" /></dd>
+							<dt>공개여부</dt>
+							<dd><label for="release1">공개</label><input type="radio" id="release1" name="group1" value="1"/></dd>
+							<dd><label for="release2">비공개</label><input type="radio" id="release2" name="group1" value="2"/></dd>
+							<dt><label for="align">동영상정렬</label></dt>
+							<dd>
+								<select id="align">
+									<option>위</option>
+									<option>가운데</option>
+									<option>아래</option>
+								</select>
+							</dd>
+						</dl>
+						<dl>
+							<dt>디스플레이</dt>
+							<dd><label for="display1">공개</label><input type="radio" id="display1" name="display" value="1"/></dd>
+							<dd><label for="display2">비공개</label><input type="radio" id="display2" name="display" value="2"/></dd>
+							<dt>메인노출</dt>
+							<dd><label for="main_view1">공개</label><input type="radio" id="main_view1" name="main_view" value="1"/></dd>
+							<dd><label for="main_view2">비공개</label><input type="radio" id="main_view2" name="main_view" value="2"/></dd>
+						</dl>
 					</form>
 					<div class="board_write">
 						<textarea cols="140" rows="10"></textarea>
