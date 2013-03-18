@@ -32,6 +32,7 @@
 
 /* first&end */
 .firs {border:none !important;padding-left:0 !important;margin-left:0 !important;}
+.last {margin-right:0 !important;margin-bottom:0 !important;}
 .end {border:none !important;padding-right:0 !important;margin-right:0 !important;}
 
 /* background none */

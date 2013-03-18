@@ -8,13 +8,12 @@
 /**************************************************************
  * board search
  **************************************************************/
-.board_srch {margin-top:10px;padding:12px 0 11px;width:100%;background:url(../img/common/board_srch_bg.png) repeat-x 0 0;overflow:hidden;}
-.board_srch .select_area {float:left;margin-left:20px;}
-.board_srch .input_area {float:right;width:auto;margin-right:20px;}
+.board_srch {margin-top:10px;padding:12px 20px 11px;width:770px;background:url(../img/common/board_srch_bg.png) repeat-x 0 0;overflow:hidden;}
 .board_srch select {float:left;margin-right:5px;width:82px;height:20px;border:1px solid #820030;}
 .board_srch label {display:none}
 .board_srch input {float:left;padding-left:3px;width:230px;height:16px;color:#fff;border:1px solid #820030;background:#c83c80;}
-.board_srch input[type=button] {float:left;margin-left:5px;width:23px;height:20px;border:none;background:url(../img/common/btn_srch.png) repeat-x 0 0;}
+.board_srch input[type=button].search {float:left;margin-left:5px;width:23px;height:20px;border:none;background:url(../img/common/btn_srch.png) repeat-x 0 0;}
+.board_srch input[type=button].move {float:left;margin-left:5px;width:39px;height:20px;border:none;background:url(../img/common/btn_move.png) repeat-x 0 0;}
 
 /**************************************************************
  * board list
@@ -33,9 +32,38 @@
 .pagination a {padding:0 8px;height:24px;line-height:24px;font-size:1.083333333333333em;font-weight:bold;vertical-align:top;display:inline-block;}
 .pagination a.active {font-weight:bold;color:#ff0658;}
 .pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .prev {margin-left:-4px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .next {margin-right:-3px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .prev {margin-left:-5px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .next {margin-right:-5px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 .pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+
+.media_list {padding:30px 20px;width:770px;border-bottom:1px solid #e0e0e0;}
+.media_list ul {margin-bottom:23px;overflow:hidden;}
+.media_list ul li {float:left;margin-right:23px;padding:11px 22px 17px;width:197px;height:151px;background:url(../img/common/media_bg.png) repeat-x 0 0;}
+.media_list ul li p.subject a {line-height:20px;color:#c40452;font-weight:bold;}
+.media_list ul li p.name {margin-top:5px;text-align:right;}
+.media_list ul li p.name strong {margin-right:10px;color:#666666;}
+.media_list ul li p.name em {padding-left:10px;background:url(../img/common/name_bar.png) no-repeat left 50%;color:#c0c0c0;}
+
+.board_view_header h1 {width:100%;height:27px;line-height:27px;background:#70777d;text-align:center;color:#fff;font-weight:bold;}
+.board_view_header p {width:100%;height:27px;line-height:27px;background:#3c4145;color:#fff;}
+.board_view_header p .number {float:left;margin-left:35px;}
+.board_view_header p .date {float:left;margin-left:47px;}
+.board_view_header p .hit {float:right;margin-right:28px;}
+.board_view {margin-bottom:30px;padding:30px 20px;width:770px;border-bottom:1px solid #e0e0e0;}
+.board_view p {width:100%;margin:0.5em}
+.board_view p.img {text-align:center;}
+
+.board_write_header ul {border:1px solid #cc0052;border-left:none;border-right:none;}
+.board_write_header ul li {padding:10px 0;border-bottom:1px dotted #dadada;}
+.board_write_header ul li strong {width:90px;display:inline-block;overflow:hidden;}
+
+.comment .cmt_write {padding:15px;background:#f0f0f0;overflow:hidden;}
+.comment .cmt_write textarea {float:left;margin-right:5px;width:670px;height:54px;border:1px solid #e0e0e0; resize:none;}
+.comment .cmt_write input[type=submit] {width:58px;height:58px;}
+.comment .cmt_list li {padding:10px 0;border-bottom:1px dotted #ccc;}
+.comment .cmt_list p {margin-bottom:10px;line-height:17px;}
+.comment .cmt_list p strong {text-align:left;color:#333;font-weight:bold;}
+.comment .cmt_list p em {float:right;}
 
 .board_btn {float:right;}
 
