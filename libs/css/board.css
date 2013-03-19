@@ -53,9 +53,21 @@
 .board_view p {width:100%;margin:0.5em}
 .board_view p.img {text-align:center;}
 
-.board_write_header ul {border:1px solid #cc0052;border-left:none;border-right:none;}
-.board_write_header ul li {padding:10px 0;border-bottom:1px dotted #dadada;}
-.board_write_header ul li strong {width:90px;display:inline-block;overflow:hidden;}
+.board_write_header {border:1px solid #cc0052;border-left:none;border-right:none;}
+.board_write_header dl {padding:10px 0;border-bottom:1px dotted #dadada;overflow:hidden;}
+.board_write_header dl dt {float:left;width:90px;line-height:22px;font-weight:bold;overflow:hidden;}
+.board_write_header dl dd {float:left;}
+.board_write_header dl dd label {float:left;line-height:22px;}
+.board_write_header dl dd input {float:left;}
+.board_write_header dl dd input[type=radio] {margin-top:2px;vertical-align: middle;}
+.board_write_header dl dd input[type=text] {height:18px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
+.board_write_header dl dd input[type=file] {height:22px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
+.board_write_header dl dt.release,
+.board_write_header dl dt.align,
+.board_write_header dl dt.main {margin-left:40px;}
+
+.board_write {text-align:center;margin-bottom:20px;padding:20px;border-bottom:1px solid #E0E0E0;}
+.board_write textarea {width:100%;border:1px solid #C2C2C2;resize:none;}
 
 .comment .cmt_write {padding:15px;background:#f0f0f0;overflow:hidden;}
 .comment .cmt_write textarea {float:left;margin-right:5px;width:670px;height:54px;border:1px solid #e0e0e0; resize:none;}
@@ -64,6 +76,8 @@
 .comment .cmt_list p {margin-bottom:10px;line-height:17px;}
 .comment .cmt_list p strong {text-align:left;color:#333;font-weight:bold;}
 .comment .cmt_list p em {float:right;}
+
+.btn_date {margin-left:5px;width:43px;height:22px;border:none;background:url(../img/common/btn_date.png) repeat-x 0 0;}
 
 .board_btn {float:right;}
 
@@ -74,6 +88,7 @@
 .btn_cancel,
 .btn_delete,
 .btn_edit,
+.btn_save,
 .btn_write {width:54px;height:23px;border:none;background:url(../img/common/board_btn.png) repeat-x 0 0;}
 
 .btn_prev {background-position-y: 0;}
@@ -84,6 +99,7 @@
 .btn_delete {background-position-y: -115px;}
 .btn_edit {background-position-y: -138px;}
 .btn_write {background-position-y: -161px;}
+.btn_save {background-position-y: -184px;}
 
 .board_caution {margin-top:30px;border:1px solid #e6e8eb}
 .board_caution ul {padding:15px 25px 20px}

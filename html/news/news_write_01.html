@@ -143,19 +143,19 @@
 					<form class="board_write_header">
 						<dl>
 							<dt><label for="subject">제목</label></dt>
-							<dd><input type="text" id="subject" name="" /></dd>
+							<dd><input type="text" id="subject" name="" size="100"/></dd>
 						</dl>
 						<dl>
 							<dt><label for="date">등록일</label></dt>
-							<dd><input type="text" id="date" name="" /><input type="button" id="" name=""/></dd>
+							<dd><input type="text" id="date" name="" /><input type="button" id="" name="" class="btn_date"/></dd>
 						</dl>
 						<dl>
 							<dt><label for="movie">동영상</label></dt>
 							<dd><input type="file" id="movie" name="" /></dd>
-							<dt>공개여부</dt>
+							<dt class="release">공개여부</dt>
 							<dd><label for="release1">공개</label><input type="radio" id="release1" name="group1" value="1"/></dd>
 							<dd><label for="release2">비공개</label><input type="radio" id="release2" name="group1" value="2"/></dd>
-							<dt><label for="align">동영상정렬</label></dt>
+							<dt class="align"><label for="align">동영상정렬</label></dt>
 							<dd>
 								<select id="align">
 									<option>위</option>
@@ -168,7 +168,7 @@
 							<dt>디스플레이</dt>
 							<dd><label for="display1">공개</label><input type="radio" id="display1" name="display" value="1"/></dd>
 							<dd><label for="display2">비공개</label><input type="radio" id="display2" name="display" value="2"/></dd>
-							<dt>메인노출</dt>
+							<dt class="main">메인노출</dt>
 							<dd><label for="main_view1">공개</label><input type="radio" id="main_view1" name="main_view" value="1"/></dd>
 							<dd><label for="main_view2">비공개</label><input type="radio" id="main_view2" name="main_view" value="2"/></dd>
 						</dl>
@@ -177,11 +177,8 @@
 						<textarea cols="140" rows="10"></textarea>
 					</div>
 					<div class="article">
-						<div class="lfloat">
-							<input type="button" id="btn_prev" class="btn_prev"/>
-							<input type="button" id="btn_next" class="btn_prev"/>
-						</div>
 						<div class="board_btn">
+							<input type="button" id="btn_save" class="btn_save"/>
 							<input type="button" id="btn_list" class="btn_list"/>
 						</div>
 					</div>
