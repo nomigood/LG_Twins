@@ -140,151 +140,88 @@
 					<h3 class="pg_title"><img src="../../libs/img/sub/news_title_04.png" alt="LG트윈스의 뒷이야기를 사진과 함께 감상해보세요." /></h3>
 				</div>
 				<div class="article">
-					<form class="board_srch">
-						<div class="input_area rfloat">
-							<select>
-								<option>2013년</option>
-							</select>
-							<label for="srch_input" class="hidden">게시판 검색</label>
-							<input type="text" name="" id="srch_input"/>
-							<input type="button" class="search" />
-						</div>
-						<div class="select_area lfloat">
-							<select>
-								<option>전체</option>
-							</select>
-							<select>
-								<option>선택</option>
-							</select>
-						</div>
+					<form class="board_write_header">
+						<dl>
+							<dt><label for="subject">제목</label></dt>
+							<dd><input type="text" id="subject" name="" size="100"/></dd>
+						</dl>
+						<dl>
+							<dt><label for="main_view">메인TV노출</label></dt>
+							<dd><input type="checkbox" id="main_view" name="" /></dd>
+						</dl>
+						<dl>
+							<dt><label for="images1">이미지1</label></dt>
+							<dd><input type="file" id="images1" name="" /></dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd class="photo_text">
+								<textarea cols="100" rows="3"></textarea>
+							</dd>
+						</dl>
+						<dl>
+							<dt><label for="images2">이미지2</label></dt>
+							<dd><input type="file" id="images2" name="" /></dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd class="photo_text">
+								<textarea cols="100" rows="3"></textarea>
+							</dd>
+						</dl>
+						<dl>
+							<dt><label for="images3">이미지3</label></dt>
+							<dd><input type="file" id="images3" name="" /></dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd>
+								<select>
+									<option>선택</option>
+								</select>
+							</dd>
+							<dd class="photo_text">
+								<textarea cols="100" rows="3"></textarea>
+							</dd>
+						</dl>
 					</form>
-					<table class="board_list">
-						<caption class="hidden">쌍둥이마당 게시판</caption>
-						<colgroup>
-							<col width="70"/>
-							<col width="440"/>
-							<col width="100"/>
-							<col width="100"/>
-							<col width="100"/>
-						</colgroup>
-						<thead>
-							<tr>
-								<th>번호</th>
-								<th>제목</th>
-								<th>작성자</th>
-								<th>등록일</th>
-								<th>조회</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="news_view_04.html">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="article">
-						<span class="pagination">
-							<a href="" class="first">first</a>
-							<a href="" class="prev">prev</a>
-							<a href="" class="active">1</a>
-							<a href="">2</a>
-							<a href="">3</a>
-							<a href="">4</a>
-							<a href="">5</a>
-							<a href="">6</a>
-							<a href="">7</a>
-							<a href="">8</a>
-							<a href="">9</a>
-							<a href="">10</a>
-							<a href="" class="next">next</a>
-							<a href="" class="end">end</a>
-						</span>
-					</div>
-					<div class="article">
+					<div class="article mt20">
 						<div class="board_btn">
-							<a href="#" class="btn_confirm">확인</a>
-							<a href="#" class="btn_cancel">취소</a>
-							<a href="#" class="btn_delete">삭제</a>
-							<a href="#" class="btn_edit">수정</a>
-							<a href="news_write_04.html" class="btn_write">글쓰기</a>
+							<input type="button" id="btn_save" class="btn_save"/>
+							<a href="news_01.html" class="btn_list">목록</a>
 						</div>
 					</div>
-				</div>
-				<div class="board_caution">
-					<img src="../../libs/img/common/board_caution.png" alt="게시물을 올리실 때 확인해 주세요."/>
-					<ul>
-						<li>본문 및 댓글은 10회 이상 회원들의 신고를 받으면 자동으로 삭제됩니다. (관리원칙상 신고관련 정보 숨김)</li>
-						<li>불건전한 게시물은 관리자에 의해 동의없이 삭제될수 있습니다.</li>
-						<li>게시판에 허위사실 유포 및 비방, 욕설등은 심각한 사이버 범죄에 해당되며 관리자에 의해 삭제될수 있습니다.</li>
-						<li>문의사항이나 건의사항은 [q&amp;a]를 이용하여 주시기 바랍니다.</li>
-					</ul>
 				</div>
 			</div>
 			<!-- /#section -->

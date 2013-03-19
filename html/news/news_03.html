@@ -138,16 +138,18 @@
 				<!-- //path -->
 				<div class="article">
 					<h3 class="pg_title"><img src="../../libs/img/sub/news_title_03.png" alt="LG트윈스의 집중분석입니다." /></h3>
-					<span class="pg_ad">
-						<a href=""><img src="../../libs/img/common/spon_01.png" alt="LG트윈스 신한카드 AD"/></a>
-						<a href=""><img src="../../libs/img/common/spon_02.png" alt="스포츠토토 AD"/></a>
-						<a href=""><img src="../../libs/img/common/spon_03.png" alt="엘라스틴 AD"/></a>
-						<a href=""><img src="../../libs/img/common/spon_04.png" alt="LG사랑해요 AD"/></a>
-					</span>
 				</div>
 				<div class="article">
-					<div class="board_srch">
-						<div class="select_area">
+					<form class="board_srch">
+						<div class="input_area rfloat">
+							<select>
+								<option>2013년</option>
+							</select>
+							<label for="srch_input" class="hidden">게시판 검색</label>
+							<input type="text" name="" id="srch_input"/>
+							<input type="button" class="search" />
+						</div>
+						<div class="select_area lfloat">
 							<select>
 								<option>전체</option>
 							</select>
@@ -155,15 +157,7 @@
 								<option>선택</option>
 							</select>
 						</div>
-						<div class="input_area">
-							<select>
-								<option>2013년</option>
-							</select>
-							<label for="srch_input" class="hidden">게시판 검색</label>
-							<input type="text" name="" id="srch_input"/>
-							<input type="button" />
-						</div>
-					</div>
+					</form>
 					<table class="board_list">
 						<caption class="hidden">쌍둥이마당 게시판</caption>
 						<colgroup>
@@ -185,7 +179,7 @@
 						<tbody>
 							<tr class="notice">
 								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
+								<td class="subject"><a href="news_view_03.html">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
 								<td>운영자</td>
 								<td>2013-03-14</td>
 								<td>201303</td>
@@ -206,21 +200,21 @@
 							</tr>
 							<tr>
 								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
+								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
 								<td>운영자</td>
 								<td>2013-03-14</td>
 								<td>201303</td>
 							</tr>
 							<tr>
 								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
+								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
 								<td>운영자</td>
 								<td>2013-03-14</td>
 								<td>201303</td>
 							</tr>
 							<tr>
 								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
+								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
 								<td>운영자</td>
 								<td>2013-03-14</td>
 								<td>201303</td>
@@ -275,11 +269,11 @@
 					</div>
 					<div class="article">
 						<div class="board_btn">
-							<input type="button" id="btn_confirm" class="btn_confirm"/>
-							<input type="button" id="btn_cancel" class="btn_cancel"/>
-							<input type="button" id="btn_delete" class="btn_delete"/>
-							<input type="button" id="btn_edit" class="btn_edit"/>
-							<input type="button" id="btn_write" class="btn_write"/>
+							<a href="#" class="btn_confirm">확인</a>
+							<a href="#" class="btn_cancel">취소</a>
+							<a href="#" class="btn_delete">삭제</a>
+							<a href="#" class="btn_edit">수정</a>
+							<a href="news_write_03.html" class="btn_write">글쓰기</a>
 						</div>
 					</div>
 				</div>
