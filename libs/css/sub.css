@@ -8,7 +8,6 @@
 /**************************************************************
  * content tab
  **************************************************************/
-.tab summary {visibility: hidden;font-size:0;}
 .tab .tab_navi {width:100%;table-layout:fixed;}
 .tab .tab_navi tr td {padding:10px;border:1px solid #fff;background:#9f9f9f;text-align:center;}
 .tab .tab_navi tr td:hover {background:#c40059;cursor: pointer;}
@@ -31,3 +30,32 @@
 .pg_section strong {font-size:1.833333333333333em;color:#333333;}
 .pg_section p {line-height:17px;overflow:hidden;}
 .pg_section span {float:left;margin-right:10px;}
+
+
+/**************************************************************
+ * 경기 정보
+ **************************************************************/
+
+.calendar {margin-top:10px;width:100%;table-layout:fixed;border:1px solid #dcdcdc;font-weight:bold;}
+.calendar thead tr th {padding:9px 0;border-right:1px solid #CFBD71;background:#C29E06;color:#fff;}
+.calendar thead tr th.sunday {background:#C40452;}
+.calendar tbody tr td {padding:10px;height:80px;border:1px solid #EEEEEE;vertical-align:top;}
+.calendar tbody tr td.upcoming {background:#f4f4f4;}
+.calendar tbody tr td.upcoming .game p a {color:#c40452;}
+.calendar tbody tr td .game {text-align:center;}
+.calendar tbody tr td .game p {text-align:center;line-height:17px;}
+.calendar tbody tr td .game p span {margin-right:10px;}
+.calendar tbody tr td .game p a {color:#666;}
+
+.info_box {margin-top:10px;padding:13px;background:#e3e3e3;}
+.info_box p {line-height:20px;color:#666666;}
+
+
+
+
+
+
+
+
+
+
