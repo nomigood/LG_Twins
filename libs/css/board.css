@@ -63,6 +63,7 @@
 .board_write_header dl dd input[type=radio] {margin-top:2px;margin-right:1px;vertical-align: middle;}
 .board_write_header dl dd input[type=text] {height:18px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
 .board_write_header dl dd input[type=file] {height:22px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
+.board_write_header dl dd input.subject_input {width:650px;}
 .board_write_header dl dt.release,
 .board_write_header dl dt.align,
 .board_write_header dl dt.main {margin-left:40px;}
