@@ -288,4 +288,4 @@ html,body {width:100%;height:100%}
 #footer .foot_ctn span {margin-bottom:10px;display:block;overflow:hidden;}
 #footer .foot_ctn a {padding:0 8px 10px;height:13px;line-height:13px;background:url(../img/common/foot_bar.png) no-repeat 0 20%;color:#606060;font-weight:bold;}
 #footer .foot_ctn address {line-height:16px;color:#989898;}
-#footer .Secured {position:absolute;right:0;top:-8px;width:auto;height:auto;overflow:hidden}
+#footer .Secured {float:right;width:auto;height:auto;overflow:hidden}
