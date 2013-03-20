@@ -8,6 +8,7 @@
 /**************************************************************
  * content tab
  **************************************************************/
+.tab {width:100%;}
 .tab .tab_navi {width:100%;table-layout:fixed;}
 .tab .tab_navi tr td {padding:10px;border:1px solid #fff;background:#9f9f9f;text-align:center;}
 .tab .tab_navi tr td:hover {background:#c40059;cursor: pointer;}
@@ -24,36 +25,26 @@
 
 .pg_section {margin-bottom:40px;color:#777777;overflow:hidden;}
 .pg_section h1 {margin:20px 0;font-size:1.416666666666667em;color:#666666;}
-.pg_section h2 {margin-bottom:15px;font-size:1.5em;color:#931634;}
+.pg_section h2 {margin-bottom:15px;font-size:1.5em;color:#931634;font-weight:bold;}
 .pg_section h2 em {font-size:2em;color:#e2e2e2;font-weight:bold;}
 .pg_section h3 {margin-bottom:5px;color:#454545;font-weight:bold;}
-.pg_section strong {font-size:1.833333333333333em;color:#333333;}
+.pg_section strong {font-size:1.833333333333333em;color:#333333;font-weight:bold;}
 .pg_section p {line-height:17px;overflow:hidden;}
 .pg_section span {float:left;margin-right:10px;}
 
-
 /**************************************************************
- * 경기 정보
+ * 경기안내
  **************************************************************/
+.game_box {float:left;width:398px;height:283px;border:1px solid #CFCFCF;} 
 
-.calendar {margin-top:10px;width:100%;table-layout:fixed;border:1px solid #dcdcdc;font-weight:bold;}
-.calendar thead tr th {padding:9px 0;border-right:1px solid #CFBD71;background:#C29E06;color:#fff;}
-.calendar thead tr th.sunday {background:#C40452;}
-.calendar tbody tr td {padding:10px;height:80px;border:1px solid #EEEEEE;vertical-align:top;}
-.calendar tbody tr td.upcoming {background:#f4f4f4;}
-.calendar tbody tr td.upcoming .game p a {color:#c40452;}
-.calendar tbody tr td .game {text-align:center;}
-.calendar tbody tr td .game p {text-align:center;line-height:17px;}
-.calendar tbody tr td .game p span {margin-right:10px;}
-.calendar tbody tr td .game p a {color:#666;}
-
-.info_box {margin-top:10px;padding:13px;background:#e3e3e3;}
-.info_box p {line-height:20px;color:#666666;}
-
-
-
-
-
+.entry_list {float:right;width:380px;height:285px;}
+.entry_list table {width:100%;}
+.entry_list table thead tr {border-bottom:3px solid #C2004E;}
+.entry_list table thead tr th {width:110px;padding:9px 0;background:#C2004E;color:#fff;}
+.entry_list table thead tr td {text-align:right;}
+.entry_list table tbody {border-bottom:3px solid #C2004E;}
+.entry_list table tbody tr th {padding:9px 0;background:#ECECEC;color:#454545;border-bottom:1px solid #fff;}
+.entry_list table tbody tr td {padding-left:5px;color:#454545;border-bottom:1px solid #ECECEC;}
 
 
 

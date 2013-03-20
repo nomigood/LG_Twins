@@ -1,0 +1,65 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins member CSS
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.member_text {
+	 border-style: solid;border-color: white;
+	padding: 15px;
+	font-size: 12px;
+	line-height: 18px;
+	width: 751px;
+	height: 360px;
+}
+
+.mf {
+	border-width: 1px 0px 0px 0px; border-style: solid; border-color: #d3d5d7; 
+}
+
+
+.mf_pad1 {
+	border-width: 0px 0px 1px 0px; border-style: solid; border-color: #d3d5d7; 
+	padding: 9px 10px 0px 10px;
+	background: #FAFAFA;
+	text-align: left;
+}
+
+.mf_pad2 {
+	border-width: 0px 0px 1px 0px; border-style: solid; border-color: #d3d5d7; 
+	padding: 5px 10px 5px 10px;
+	background: #ffffff;
+	text-align: left;
+}
+
+
+
+/* 어린이 회원가입 -------------------- */
+
+.child_text1 {
+	border-width: 1px; border-style: solid; border-color: #d3d5d7; 
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	width: 475px;
+	height: 110px;
+}
+
+.child_text2 {
+	border-width: 1px; border-style: solid; border-color: #d3d5d7; 
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	width: 475px;
+	height: 90px;
+}
+
+.child_text3 {
+	border-width: 1px; border-style: solid; border-color: #d3d5d7; 
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	width: 455px;
+	height: 90px;
+}

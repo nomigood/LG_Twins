@@ -1,0 +1,105 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins introduce css | skin.css 참고
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ 구단소개 - history
+--------------------------------------------------------------------------------------- */
+
+.th_hline {background:#F3F3F3; height:22px; text-align:center;}
+.p_bar_g{
+	height:24px;
+	background: #EDEDED url(/images/player/col_bar.gif) no-repeat right top ;
+}
+
+.p_bar_g_none{
+	background: #EDEDED;
+	height:24px;
+}
+.bold {font-weight:bold;}
+
+
+/* --------------------------------------------------------------------------------------
+ 구단소개 - 해외우호구단
+--------------------------------------------------------------------------------------- */
+table.abroad_tb1 {
+	border-width: 2px 0px 1px 0px; 
+	border-style: solid; 
+	border-color: #c5003d;
+}
+
+table.abroad_tb2 {
+	border-width: 1px 0px 0px 0px; 
+	border-style: solid; 
+	border-color: #ead1ce;
+}
+
+table.abroad_tb2 ul li {
+	background: url(../introduce/partner/imgs/ic1.gif) no-repeat left top; 
+	padding: 3px 10px;
+}
+
+td.abroad_tb2_1 {
+	border-width: 0px 1px 1px 0px; 
+	border-style: solid; 
+	border-color: #ffffff #f3f3f3 #ead1ce #ffffff;
+	padding: 2px 10px;
+}
+
+td.abroad_tb2_2 {
+	border-width: 0px 1px 1px 0px; 
+	border-style: solid; 
+	border-color: #ffffff #f3f3f3 #f3f3f3 #ffffff;
+	padding: 2px 10px;
+}
+
+
+td.abroad_tb2_1_n {
+	border-width: 0px 0px 1px 0px; 
+	border-style: solid; 
+	border-color: #ffffff #f3f3f3 #ead1ce #ffffff;
+	padding: 2px 10px;
+}
+
+td.abroad_tb2_2_n {
+	border-width: 0px 0px 1px 0px; 
+	border-style: solid; 
+	border-color: #ffffff #f3f3f3 #f3f3f3 #ffffff;
+	padding: 2px 10px;
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------
+ 트윈스역사관-트윈스 명승부
+--------------------------------------------------------------------------------------- */
+
+div#bestmatch {
+	background: url(../introduce/bestmatch/imgs/bg1.gif) no-repeat right top;
+	border-width: 0px 0px 1px 0px; border-style: solid; border-color: #d3d5d7; 
+	padding: 10px 0px 20px 0px;
+}
+
+.bestmatch_bg1 {
+	width: 166px;
+	height: 129px;
+	background: url(../introduce/bestmatch/imgs/bg2.gif) no-repeat;
+}
+
+
+/* --------------------------------------------------------------------------------------
+ 트윈스역사관-시즌별 최우수 선수
+--------------------------------------------------------------------------------------- */
+
+.bestplayer_ttl1 {
+	color: #000000;
+	font-weight: bold;
+	padding: 5px 0px 0px 0px;
+}
+
+

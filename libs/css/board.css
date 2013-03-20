@@ -104,7 +104,10 @@
 /**************************************************************
  * 달력
  **************************************************************/
-.calendar {margin-top:10px;width:100%;table-layout:fixed;border:1px solid #dcdcdc;font-weight:bold;}
+.calendar form span {float:left;margin-right:10px;padding-right:10px;height:20px;line-height:20px;background:url(../img/common/name_bar.png) no-repeat right 50%;color:#666666;font-size:1em;vertical-align: middle;}
+.calendar form span input {float:left;}
+.calendar form select {margin:0;border:1px solid #e0e0e0;}
+.calendar table {margin-top:10px;width:100%;table-layout:fixed;border:1px solid #dcdcdc;font-weight:bold;}
 .calendar thead tr th {padding:9px 0;border-right:1px solid #CFBD71;background:#C29E06;color:#fff;}
 .calendar thead tr th.sunday {background:#C40452;}
 .calendar tbody tr td {padding:10px;height:80px;border:1px solid #EEEEEE;vertical-align:top;}
@@ -112,7 +115,7 @@
 .calendar tbody tr td.upcoming .game p a {color:#c40452;}
 .calendar tbody tr td .game {text-align:center;}
 .calendar tbody tr td .game p {text-align:center;line-height:17px;}
-.calendar tbody tr td .game p span {margin-right:10px;}
+.calendar tbody tr td .game p span {margin-right:5px;}
 .calendar tbody tr td .game p a {color:#666;}
 
 .info_box {margin-top:10px;padding:13px;background:#e3e3e3;}
@@ -134,15 +137,15 @@
 .btn_save,
 .btn_write {float:left;margin-left:3px;width:54px;height:23px;border:none;background:url(../img/common/board_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
-.btn_prev {background-position-y: 0;}
-.btn_next {background-position-y: -23px;}
-.btn_list {background-position-y: -46px;}
-.btn_confirm {background-position-y: -69px;}
-.btn_cancel {background-position-y: -92px;}
-.btn_delete {background-position-y: -115px;}
-.btn_edit {background-position-y: -138px;}
-.btn_write {background-position-y: -161px;}
-.btn_save {background-position-y: -184px;}
+.btn_prev {background-position: 0 0;}
+.btn_next {background-position: 0 -23px;}
+.btn_list {background-position: 0 -46px;}
+.btn_confirm {background-position: 0 -69px;}
+.btn_cancel {background-position: 0 -92px;}
+.btn_delete {background-position: 0 -115px;}
+.btn_edit {background-position: 0 -138px;}
+.btn_write {background-position: 0 -161px;}
+.btn_save {background-position: 0 -184px;}
 
 /**************************************************************
  * 주의사항

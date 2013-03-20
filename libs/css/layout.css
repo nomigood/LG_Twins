@@ -58,7 +58,7 @@ html,body {width:100%;height:100%}
 #footer {padding:30px 0;width:100%;height:59px;border-top:1px solid #e0e0e0;overflow:hidden;}
 
 .sub_header {height:auto;background:url(../img/common/sub_header_bg.png) repeat-x 0 0;}
-.content_wrap {position:relative;margin:0 auto;width:980px;height:auto;}
+.content_wrap {margin:0 auto;width:980px;height:auto;}
 .visual_wrap {position:relative;margin:0 auto;width:1000px;height:auto;}
 .article {position:relative;width:100%;overflow:hidden;}
 
@@ -73,87 +73,85 @@ html,body {width:100%;height:100%}
 
 /**************************************************************
  * gnb
- **************************************************************/
-
-/* gnb size width:75px height:16px */
-/* gnb size width:76px height:16px */
-/* gnb 2depth size width:76px height:13px */
- 
+ **************************************************************/ 
 #header .gnb {padding:10px 0 0 150px;width:850px;height:25px;}
 #header .gnb li {float:left;width:105px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
 #header .gnb li:last-of-type {padding-right:0;background:none;}
-#header .gnb li a {height:16px;background: url(../img/common/gnb.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:inline-block;overflow:hidden;}
-#header .gnb li a.active {background-position-x: -75px;}
-#header .gnb li a:hover {background-position-x: -75px;}
-#header .gnb li a.news {width:67px;background-position-y: 0}
-#header .gnb li a.info {width:54px;background-position-y: -16px}
-#header .gnb li a.team {width:75px;background-position-y: -32px}
-#header .gnb li a.about {width:54px;background-position-y: -48px}
-#header .gnb li a.mall {width:41px;background-position-y: -64px}
-#header .gnb li a.community {width:63px;background-position-y: -80px}
-#header .gnb li a.club {width:75px;background-position-y: -96px}
-#header .gnb li a.customer {width:54px;background-position-y: -112px}
+#header .gnb li a {margin:0 auto;width:auto;height:16px;background: url(../img/common/gnb_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;text-align:center;}
+#header .gnb li a.active,
+#header .gnb li a:hover {background: url(../img/common/gnb_on.png) no-repeat 0 0;}
+#header .gnb li a.news {width:67px;background-position: 0 0}
+#header .gnb li a.info {width:54px;background-position: 0 -16px}
+#header .gnb li a.team {width:75px;background-position: 0 -32px}
+#header .gnb li a.about {width:54px;background-position: 0 -48px}
+#header .gnb li a.mall {width:41px;background-position: 0 -64px}
+#header .gnb li a.community {width:63px;background-position: 0 -80px}
+#header .gnb li a.club {width:75px;background-position: 0 -96px}
+#header .gnb li a.customer {width:54px;background-position: 0 -112px}
 
+/**************************************************************
+ * gnb 2depth
+ **************************************************************/ 
 #header .gnb_2depth {position:absolute;padding-top:15px;width:978px;height:auto;background:#dedede;border:1px solid #af124c;overflow:hidden;z-index: 10000}
 #header .gnb_2depth span {float:left;width:141px;}
 #header .gnb_2depth ul {float:left;margin-bottom:15px;height:190px;background:url(../img/common/gnb_bar_02.png) repeat-y right top;}
 #header .gnb_2depth ul.news {margin-left:7px;}
 #header .gnb_2depth ul.customer {width:50px;background: none;}
 #header .gnb_2depth ul li {width:90px;padding:0 0 15px 15px;}
-
-#header .gnb_2depth ul li a {width:76px;height:13px;background: url(../img/common/gnb_2depth.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:inline-block;overflow:hidden;}
-#header .gnb_2depth li a:hover {background-position-x: -76px;}
-
-#header .gnb_2depth li a.news01 {background-position-y: 0}
-#header .gnb_2depth li a.news02 {background-position-y: -13px}
-#header .gnb_2depth li a.news03 {background-position-y: -26px}
-#header .gnb_2depth li a.news04 {background-position-y: -39px}
-
-#header .gnb_2depth li a.info01 {background-position-y: -52px}
-#header .gnb_2depth li a.info02 {background-position-y: -65px}
-#header .gnb_2depth li a.info03 {background-position-y: -78px}
-#header .gnb_2depth li a.info04 {background-position-y: -91px}
-#header .gnb_2depth li a.info05 {background-position-y: -104px}
-#header .gnb_2depth li a.info06 {background-position-y: -117px}
-#header .gnb_2depth li a.info07 {background-position-y: -130px}
-
-#header .gnb_2depth li a.team01 {background-position-y: -143px}
-#header .gnb_2depth li a.team02 {background-position-y: -156px}
-#header .gnb_2depth li a.team03 {background-position-y: -169px}
-#header .gnb_2depth li a.team04 {background-position-y: -182px}
-#header .gnb_2depth li a.team05 {background-position-y: -195px}
-#header .gnb_2depth li a.team06 {background-position-y: -208px}
-
-#header .gnb_2depth li a.about01 {background-position-y: -221px}
-#header .gnb_2depth li a.about02 {background-position-y: -234px}
-#header .gnb_2depth li a.about03 {background-position-y: -247px}
-#header .gnb_2depth li a.about04 {background-position-y: -260px}
-
-#header .gnb_2depth li a.mall01 {background-position-y: -273px}
-#header .gnb_2depth li a.mall02 {background-position-y: -286px}
-
-#header .gnb_2depth li a.community01 {background-position-y: -299px}
-#header .gnb_2depth li a.community02 {background-position-y: -312px}
-#header .gnb_2depth li a.community03 {background-position-y: -325px}
-#header .gnb_2depth li a.community04 {background-position-y: -338px}
-#header .gnb_2depth li a.community05 {background-position-y: -351px}
-#header .gnb_2depth li a.community06 {background-position-y: -364px}
-#header .gnb_2depth li a.community07 {background-position-y: -377px}
-
-#header .gnb_2depth li a.club01 {background-position-y: -390px}
-#header .gnb_2depth li a.club02 {background-position-y: -403px}
-#header .gnb_2depth li a.club03 {background-position-y: -416px}
-#header .gnb_2depth li a.club04 {background-position-y: -429px}
-
-#header .gnb_2depth li a.customer01 {background-position-y: -442px}
-#header .gnb_2depth li a.customer02 {background-position-y: -455px}
-
+#header .gnb_2depth ul li a {width:76px;height:13px;background: url(../img/common/gnb_2depth_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
+#header .gnb_2depth li a:hover {background: url(../img/common/gnb_2depth_on.png) no-repeat -76px 0;}
+#header .gnb_2depth li a.news01 {background-position: 0 0}
+#header .gnb_2depth li a.news02 {background-position: 0 -13px}
+#header .gnb_2depth li a.news03 {background-position: 0 -26px}
+#header .gnb_2depth li a.news04 {background-position: 0 -39px}
+#header .gnb_2depth li a.info01 {background-position: 0 -52px}
+#header .gnb_2depth li a.info02 {background-position: 0 -65px}
+#header .gnb_2depth li a.info03 {background-position: 0 -78px}
+#header .gnb_2depth li a.info04 {background-position: 0 -91px}
+#header .gnb_2depth li a.info05 {background-position: 0 -104px}
+#header .gnb_2depth li a.info06 {background-position: 0 -117px}
+#header .gnb_2depth li a.info07 {background-position: 0 -130px}
+#header .gnb_2depth li a.team01 {background-position: 0 -143px}
+#header .gnb_2depth li a.team02 {background-position: 0 -156px}
+#header .gnb_2depth li a.team03 {background-position: 0 -169px}
+#header .gnb_2depth li a.team04 {background-position: 0 -182px}
+#header .gnb_2depth li a.team05 {background-position: 0 -195px}
+#header .gnb_2depth li a.team06 {background-position: 0 -208px}
+#header .gnb_2depth li a.about01 {background-position: 0 -221px}
+#header .gnb_2depth li a.about02 {background-position: 0 -234px}
+#header .gnb_2depth li a.about03 {background-position: 0 -247px}
+#header .gnb_2depth li a.about04 {background-position: 0 -260px}
+#header .gnb_2depth li a.mall01 {background-position: 0 -273px}
+#header .gnb_2depth li a.mall02 {background-position: 0 -286px}
+#header .gnb_2depth li a.community01 {background-position: 0 -299px}
+#header .gnb_2depth li a.community02 {background-position: 0 -312px}
+#header .gnb_2depth li a.community03 {background-position: 0 -325px}
+#header .gnb_2depth li a.community04 {background-position: 0 -338px}
+#header .gnb_2depth li a.community05 {background-position: 0 -351px}
+#header .gnb_2depth li a.community06 {background-position: 0 -364px}
+#header .gnb_2depth li a.community07 {background-position: 0 -377px}
+#header .gnb_2depth li a.club01 {background-position: 0 -390px}
+#header .gnb_2depth li a.club02 {background-position: 0 -403px}
+#header .gnb_2depth li a.club03 {background-position: 0 -416px}
+#header .gnb_2depth li a.club04 {background-position: 0 -429px}
+#header .gnb_2depth li a.customer01 {background-position: 0 -442px}
+#header .gnb_2depth li a.customer02 {background-position: 0 -455px}
 
 /**************************************************************
  * visual
  **************************************************************/
 #header .main_visual {width:1000px;height:385px;background:url(../img/common/main_visual_bg.png) no-repeat 0 0;}
-#header .sub_visual {width:1000px;height:105px;background:url(../img/common/sub_visual_bg.png) no-repeat 0 0;}
+#header .sub_visual_news {width:1000px;height:105px;background:url(../img/sub/sub_visual_01.png) no-repeat 0 0;}
+#header .sub_visual_community {width:1000px;height:105px;background:url(../img/sub/sub_visual_02.png) no-repeat 0 0;}
+#header .sub_visual_info {width:1000px;height:105px;background:url(../img/sub/sub_visual_03.png) no-repeat 0 0;}
+#header .sub_visual_mall {width:1000px;height:105px;background:url(../img/sub/sub_visual_04.png) no-repeat 0 0;}
+#header .sub_visual_team {width:1000px;height:105px;background:url(../img/sub/sub_visual_05.png) no-repeat 0 0;}
+#header .sub_visual_about {width:1000px;height:105px;background:url(../img/sub/sub_visual_06.png) no-repeat 0 0;}
+#header .sub_visual_customer {width:1000px;height:105px;background:url(../img/sub/sub_visual_07.png) no-repeat 0 0;}
+#header .sub_visual_club {width:1000px;height:105px;background:url(../img/sub/sub_visual_08.png) no-repeat 0 0;}
+#header .sub_visual_mytwins {width:1000px;height:105px;background:url(../img/sub/sub_visual_09.png) no-repeat 0 0;}
+#header .sub_visual_member {width:1000px;height:105px;background:url(../img/sub/sub_visual_10.png) no-repeat 0 0;}
+
 
 /**************************************************************
  * aside
@@ -164,83 +162,111 @@ html,body {width:100%;height:100%}
 /**************************************************************
  * snb
  **************************************************************/
- 
-/*
- snb size on,off width:95px height:13px
- snb size active width:102px height:13px
-*/
-
 #aside .snb {margin:15px 0;width:140;height:auto;overflow:hidden;}
 #aside .snb li {padding:7px 0 9px 10px;width:130px;height:auto;}
-#aside .snb li.active {background:url(../img/common/snb_active.png) no-repeat 0 0;}
-#aside .snb li.active a {background-position-x: -190px;}
-#aside .snb li.active a:hover {background-position-x: -190px;}
+#aside .snb li a {width:95px;height:14px;background: url(../img/common/snb_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
+#aside .snb li a:hover {background: url(../img/common/snb_on.png) no-repeat 0 0;}
+#aside .snb li a.news01 {background-position: 0 0}
+#aside .snb li a.news02 {background-position: 0 -14px}
+#aside .snb li a.news03 {background-position: 0 -28px}
+#aside .snb li a.news04 {background-position: 0 -42px}
+#aside .snb li a.info01 {background-position: 0 -56px}
+#aside .snb li a.info02 {background-position: 0 -70px}
+#aside .snb li a.info03 {background-position: 0 -84px}
+#aside .snb li a.info04 {background-position: 0 -98px}
+#aside .snb li a.info05 {background-position: 0 -112px}
+#aside .snb li a.info06 {background-position: 0 -126px}
+#aside .snb li a.info07 {background-position: 0 -140px}
+#aside .snb li a.team01 {background-position: 0 -154px}
+#aside .snb li a.team02 {background-position: 0 -168px}
+#aside .snb li a.team03 {background-position: 0 -182px}
+#aside .snb li a.team04 {background-position: 0 -196px}
+#aside .snb li a.team05 {background-position: 0 -210px}
+#aside .snb li a.team06 {background-position: 0 -224px}
+#aside .snb li a.about01 {background-position: 0 -238px}
+#aside .snb li a.about02 {background-position: 0 -252px}
+#aside .snb li a.about03 {background-position: 0 -266px}
+#aside .snb li a.about04 {background-position: 0 -280px}
+#aside .snb li a.mall01 {background-position: 0 -294px}
+#aside .snb li a.mall02 {background-position: 0 -308px}
+#aside .snb li a.community01 {background-position: 0 -322px}
+#aside .snb li a.community02 {background-position: 0 -336px}
+#aside .snb li a.community03 {background-position: 0 -350px}
+#aside .snb li a.community04 {background-position: 0 -364px}
+#aside .snb li a.community05 {background-position: 0 -378px}
+#aside .snb li a.community06 {background-position: 0 -392px}
+#aside .snb li a.community07 {background-position: 0 -406px}
+#aside .snb li a.club01 {background-position: 0 -420px}
+#aside .snb li a.club02 {background-position: 0 -434px}
+#aside .snb li a.club03 {background-position: 0 -448px}
+#aside .snb li a.club04 {background-position: 0 -462px}
+#aside .snb li a.customer01 {background-position: 0 -476px}
+#aside .snb li a.customer02 {background-position: 0 -490px}
 
-#aside .snb li a {width:95px;height:14px;background: url(../img/common/snb.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:block;overflow:hidden;}
-#aside .snb li a:hover {background-position-x: -95px;}
+/**************************************************************
+ * snb active
+ **************************************************************/
+#aside .snb li.active {background:url(../img/common/snb_active_bg.png) no-repeat 0 0;}
+#aside .snb li.active a,
+#aside .snb li.active a:hover {width:102px;background: url(../img/common/snb_active.png) no-repeat;}
+#aside .snb li.active a.news01 {background-position: 0 0}
+#aside .snb li.active a.news02 {background-position: 0 -14px}
+#aside .snb li.active a.news03 {background-position: 0 -28px}
+#aside .snb li.active a.news04 {background-position: 0 -42px}
+#aside .snb li.active a.info01 {background-position: 0 -56px}
+#aside .snb li.active a.info02 {background-position: 0 -70px}
+#aside .snb li.active a.info03 {background-position: 0 -84px}
+#aside .snb li.active a.info04 {background-position: 0 -98px}
+#aside .snb li.active a.info05 {background-position: 0 -112px}
+#aside .snb li.active a.info06 {background-position: 0 -126px}
+#aside .snb li.active a.info07 {background-position: 0 -140px}
+#aside .snb li.active a.team01 {background-position: 0 -154px}
+#aside .snb li.active a.team02 {background-position: 0 -168px}
+#aside .snb li.active a.team03 {background-position: 0 -182px}
+#aside .snb li.active a.team04 {background-position: 0 -196px}
+#aside .snb li.active a.team05 {background-position: 0 -210px}
+#aside .snb li.active a.team06 {background-position: 0 -224px}
+#aside .snb li.active a.about01 {background-position: 0 -238px}
+#aside .snb li.active a.about02 {background-position: 0 -252px}
+#aside .snb li.active a.about03 {background-position: 0 -266px}
+#aside .snb li.active a.about04 {background-position: 0 -280px}
+#aside .snb li.active a.mall01 {background-position: 0 -294px}
+#aside .snb li.active a.mall02 {background-position: 0 -308px}
+#aside .snb li.active a.community01 {background-position: 0 -322px}
+#aside .snb li.active a.community02 {background-position: 0 -336px}
+#aside .snb li.active a.community03 {background-position: 0 -350px}
+#aside .snb li.active a.community04 {background-position: 0 -364px}
+#aside .snb li.active a.community05 {background-position: 0 -378px}
+#aside .snb li.active a.community06 {background-position: 0 -392px}
+#aside .snb li.active a.community07 {background-position: 0 -406px}
+#aside .snb li.active a.club01 {background-position: 0 -420px}
+#aside .snb li.active a.club02 {background-position: 0 -434px}
+#aside .snb li.active a.club03 {background-position: 0 -448px}
+#aside .snb li.active a.club04 {background-position: 0 -462px}
+#aside .snb li.active a.customer01 {background-position: 0 -476px}
+#aside .snb li.active a.customer02 {background-position: 0 -490px}
 
-#aside .snb li a.news01 {background-position-y: 0}
-#aside .snb li a.news02 {background-position-y: -14px}
-#aside .snb li a.news03 {background-position-y: -28px}
-#aside .snb li a.news04 {background-position-y: -42px}
-
-#aside .snb li a.info01 {background-position-y: -56px}
-#aside .snb li a.info02 {background-position-y: -70px}
-#aside .snb li a.info03 {background-position-y: -84px}
-#aside .snb li a.info04 {background-position-y: -98px}
-#aside .snb li a.info05 {background-position-y: -112px}
-#aside .snb li a.info06 {background-position-y: -126px}
-#aside .snb li a.info07 {background-position-y: -140px}
-
-#aside .snb li a.team01 {background-position-y: -154px}
-#aside .snb li a.team02 {background-position-y: -168px}
-#aside .snb li a.team03 {background-position-y: -182px}
-#aside .snb li a.team04 {background-position-y: -196px}
-#aside .snb li a.team05 {background-position-y: -210px}
-#aside .snb li a.team06 {background-position-y: -224px}
-
-#aside .snb li a.about01 {background-position-y: -238px}
-#aside .snb li a.about02 {background-position-y: -252px}
-#aside .snb li a.about03 {background-position-y: -266px}
-#aside .snb li a.about04 {background-position-y: -280px}
-
-#aside .snb li a.mall01 {background-position-y: -294px}
-#aside .snb li a.mall02 {background-position-y: -308px}
-
-#aside .snb li a.community01 {background-position-y: -322px}
-#aside .snb li a.community02 {background-position-y: -336px}
-#aside .snb li a.community03 {background-position-y: -350px}
-#aside .snb li a.community04 {background-position-y: -364px}
-#aside .snb li a.community05 {background-position-y: -378px}
-#aside .snb li a.community06 {background-position-y: -392px}
-#aside .snb li a.community07 {background-position-y: -406px}
-
-#aside .snb li a.club01 {background-position-y: -420px}
-#aside .snb li a.club02 {background-position-y: -434px}
-#aside .snb li a.club03 {background-position-y: -448px}
-#aside .snb li a.club04 {background-position-y: -462px}
-
-#aside .snb li a.customer01 {background-position-y: -476px}
-#aside .snb li a.customer02 {background-position-y: -490px}
-
+/**************************************************************
+ * snb 2depth
+ **************************************************************/
 #aside .snb li .snb_2depth {margin-top:15px;width:130;height:auto;overflow:hidden;}
 #aside .snb li .snb_2depth li {padding:4px 0;width:130px;}
-#aside .snb li .snb_2depth li a {width:79px;height:13px;background: url(../img/common/snb_2depth.png) no-repeat;background-position-x: 0;text-indent: -9000px;display:block;overflow:hidden;}
-#aside .snb li .snb_2depth li a:hover {background-position-x: -79px;}
-#aside .snb li .snb_2depth li a.active {background-position-x: -79px;}
+#aside .snb li .snb_2depth li a {width:79px;height:13px;background: url(../img/common/snb_2depth_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
+#aside .snb li .snb_2depth li a:hover {background: url(../img/common/snb_2depth_on.png) no-repeat 0 0;}
+#aside .snb li .snb_2depth li a.active {background: url(../img/common/snb_2depth_on.png) no-repeat 0 0;}
 
-#aside .snb li .snb_2depth li a.about_01_01 {background-position-y: 0}
-#aside .snb li .snb_2depth li a.about_01_02 {background-position-y: -13px}
-#aside .snb li .snb_2depth li a.about_01_03 {background-position-y: -26px}
-#aside .snb li .snb_2depth li a.about_01_04 {background-position-y: -39px}
-#aside .snb li .snb_2depth li a.about_01_05 {background-position-y: -52px}
-#aside .snb li .snb_2depth li a.about_01_06 {background-position-y: -65px}
+#aside .snb li .snb_2depth li a.about_01_01 {background-position: 0 0}
+#aside .snb li .snb_2depth li a.about_01_02 {background-position: 0 -13px}
+#aside .snb li .snb_2depth li a.about_01_03 {background-position: 0 -26px}
+#aside .snb li .snb_2depth li a.about_01_04 {background-position: 0 -39px}
+#aside .snb li .snb_2depth li a.about_01_05 {background-position: 0 -52px}
+#aside .snb li .snb_2depth li a.about_01_06 {background-position: 0 -65px}
 
-#aside .snb li .snb_2depth li a.about_02_01 {background-position-y: -78px}
-#aside .snb li .snb_2depth li a.about_02_02 {background-position-y: -91px}
+#aside .snb li .snb_2depth li a.about_02_01 {background-position: 0 -78px}
+#aside .snb li .snb_2depth li a.about_02_02 {background-position: 0 -91px}
 
-#aside .snb li .snb_2depth li a.about_03_01 {background-position-y: -104px}
-#aside .snb li .snb_2depth li a.about_03_02 {background-position-y: -117px}
+#aside .snb li .snb_2depth li a.about_03_01 {background-position: 0 -104px}
+#aside .snb li .snb_2depth li a.about_03_02 {background-position: 0 -117px}
 
 
 /**************************************************************
@@ -250,7 +276,7 @@ html,body {width:100%;height:100%}
 .path a {color:#a0a0a0;}
 .path em {margin:0 5px;color:#e3afbe}
 
-.pg_title {float:left;margin-bottom:40px;}
+.pg_title {margin-bottom:40px;}
 .pg_ad {float:right;}
 
 /**************************************************************

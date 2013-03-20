@@ -1,0 +1,123 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins game css
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.txt_bg1 {
+	background: url(../game/imgs/ln_stxt1.gif) no-repeat top left;
+}
+
+.calendar_bg1 {
+	width:110px;
+	height: 102px;
+	padding: 1px;
+	border:1px solid #DCDCDC;
+	background:url('/images/board/cal_nbg01.gif');
+
+}
+
+.calendar_bg2 {
+	width:110px;
+	height: 102px;
+	padding: 1px;
+	border:1px solid #DCDCDC;
+	background:url('/images/board/cal_nbg02.gif');
+}
+
+.calendar_bg3 {
+	width:110px;
+	padding: 1px;
+	border:1px solid #DCDCDC;
+	background:url('/images/board/cal_nbg03.gif');
+
+}
+
+.calendar_bg4 {
+
+	padding: 0px 5px 1px 0px;
+
+}
+
+.or1 {
+	color: #ff5200;
+}
+
+.or1 a {
+	color: #ff5200;
+}
+
+.or1 a:link {
+	color: #ff5200;
+}
+.or1 a:visited {
+	color: #ff5200;
+}
+
+.or1 a:hover {
+	color: #ff5200;
+}
+
+.or1 a:active {
+	color: #ff5200;
+}
+
+
+
+.pk_bg1 {
+	color: #ffffff;
+	background: #c5003d;
+	border-width: 2px 1px 0px 1px; border-style: solid; border-color: #c5003d; 
+}
+
+.vs_bg1 {
+	width: 401px;
+	height: 277px;
+	background: url(/images/board/game_bg01.gif) no-repeat top left;	
+	padding: 20px 15px 15px 15px;
+}
+
+.vs_bg2 {
+	background: url(../game/imgs/bg_vs4.gif) no-repeat top center;	
+}
+
+.vs_bg3 {
+	width: 502px;
+	height: 108px;
+	background: url(/images/board/game_bg05.gif) no-repeat top center;	
+}
+
+.vs_bg4 {
+	width: 272px;
+	height: 153px;
+	background: url(/images/board/game_bg03.gif) no-repeat top left;	
+	padding: 10px 28px 15px 24px;
+}
+
+
+
+
+.th_bar1 {
+	background: url(../game/imgs/ln_td1.gif) no-repeat top right;	
+}
+
+#player_bg1 {
+	width: 350px;
+	height: 310px;
+	padding: 41px 0px 0px 15px;
+	background: url(../game/imgs/img_player.gif) no-repeat top left;
+	float: left;
+}
+
+.bg_td4_c1 {
+	color:#FFFFFF;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: #c5003d;
+}
+

@@ -1,0 +1,82 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins community css | skin.css 참고
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ UCC동영상
+--------------------------------------------------------------------------------------- */
+
+div#ucc-lf {
+
+	width: 470px;
+	float: left;
+	height:466px;
+
+}
+
+div#ucc-rt {
+	background: url(/images/board/ucc_leftbg2.gif) no-repeat left top;
+	width: 252px;
+	height:471px;
+	float: right;
+}
+
+div#ucc-hp {
+	background: url(/images/board/ucc_leftbg_in.gif) no-repeat center top;
+	width: 100%;
+	height: 350px;
+}
+
+.hp_txt1 {
+	width:100%; 
+	height:19px; 
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	color:#666666;
+	letter-spacing: -1px;
+	padding: 5px 0px 0px 0px;
+}
+
+
+.ucc_sch1 {
+	background: url(../community/ucc/imgs/bg_sch1.gif) no-repeat center top;
+	width: 470px;
+	height: 40px;
+}
+
+div#ucc-list {
+	border-width: 0px 0px 1px 0px; border-style: solid; border-color: #d3d5d7; 
+	padding: 20px 10px 0px 10px;
+}
+
+.ucc_img1 {
+	display: block;
+	width:74px; 
+	height:20px; 
+	line-height: 10px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 11px;
+	letter-spacing: -1px;
+	padding: 5px 0px 0px 1px;
+	background: url(/images/board/ucc_bg2.gif) no-repeat bottom left;
+}
+
+.ucc_img2 {
+	width:242px; 
+	height:181px; 
+	background: url(/images/board/ucc_listbg2.gif) no-repeat top center;
+	text-align: center;
+	color: #000000;
+	font-size: 11px;
+	letter-spacing: -1px;
+	border:1px solid red;
+
+}
+.y_banner {position:absolute; top:0; right:170px; z-index:999;}
+.y_banner2 {position:absolute; top:338px; right:100px; z-index:999;}
+.allstar {position:absolute; top:-170px; left:0;z-index:999;}

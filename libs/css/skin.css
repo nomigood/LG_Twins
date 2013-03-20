@@ -1,0 +1,517 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins 게시판 skin css | 게시판 공통적용으로 community/twinsnews/customer.css에서 쓰임
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ 기본설정
+--------------------------------------------------------------------------------------- */
+
+/* 검색 -------------------- */
+table.srh {
+	border:1px solid #E1E1E1;
+	background:#F3F3F3;
+	width:809px;
+	height: 32px;
+	margin-bottom: 9px;
+
+}
+
+select.srh {
+	color: black;
+	letter-spacing: -1px;
+	font-size: 12px;
+	line-height: 18px;
+	height: 18px;
+}
+
+input.srh {
+	color: black;
+	height:15px;
+	font-size: 12px;
+	padding-top:2px;
+	border: 1px solid #cecece; 
+}
+
+
+/* 게시판 타이틀 -------------------- */
+
+table.bttl {
+	border:3px solid #cc0052;
+	background: url(../images/board/board_bg.gif) repeat-x left top;
+	width:809px;
+	height: 34px;
+}
+
+th.tct {
+	text-align:center;
+	background: url(../images/board/board_mid.gif) no-repeat right top;
+}
+
+td.tct {
+	text-align:center;
+	vertical-align:middle;
+	background: url(../images/board/board_mid.gif) no-repeat right top;
+}
+
+td.nct {
+	text-align:left;
+	vertical-align:middle;
+	padding-left:10px;
+}
+
+th.nct {
+	text-align:center;
+}
+
+
+table.btt2 {
+	width: 720px;
+	height:28px;
+}
+
+table.btt2 td.lct {
+	text-align:center;
+	vertical-align:middle;
+	background: url(../images/board/board_mid.gif) no-repeat right top;
+}
+
+table.btt2 td.nct {
+	text-align:left;
+	vertical-align:middle;
+	padding-left:10px;
+}
+
+table.btt2 th.nct {
+	text-align:center;
+}
+
+
+table.btt3 {
+	width:809px;
+	height:30px;
+	border-top:1px solid #cc0052;
+}
+
+table.btt3 td.lct {
+	text-align:center;
+	vertical-align:middle;
+	background: url(../images/board/board_mid.gif) no-repeat right top;
+}
+
+table.btt3 td.nct {
+	text-align:left;
+	vertical-align:middle;
+	padding-left:10px;
+}
+
+table.btt3 th.nct {
+	text-align:center;
+}
+
+
+
+
+table.btt4 {
+	width:809px;
+	height:30px;
+	border-top:1px solid #cc0052;
+}
+
+table.btt4 td.lct {
+	text-align:center;
+	vertical-align:middle;
+	background: url(../images/board/board_mid.gif) no-repeat right top;
+}
+
+table.btt4 td.nct {
+	text-align:left;
+	vertical-align:middle;
+	padding-left:10px;
+}
+
+table.btt4 th.nct {
+	text-align:center;
+}
+
+
+
+/* 추후삭제 -------------------- */
+table.lttl_bg  {
+	background: url(../imgs/skin/lttl_bg1.gif) no-repeat left top;
+	width: 720px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+
+/* 수정추가 -------------------- */
+table.lttl_bg0  {
+	width: 720px;
+	margin-bottom: 10px;
+}
+
+td.lttl_bg1  {
+
+}
+
+td.lttl_bg2  {
+	border-bottom:1px solid #cc0052;
+
+	width: 720px;
+}
+
+td.lttl_bg3  {
+}
+
+/* 수정추가 -------------------- */
+
+
+span.lct{
+	display: block;
+	color:#FFFFFF;
+	width: 70px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_lct1.gif) no-repeat;
+}
+
+span.lct2{
+	display: block;
+	color:#FFFFFF;
+	width: 70px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_lct2.gif) no-repeat;
+}
+
+span.lct3{
+	display: block;
+	color:#FFFFFF;
+	width: 70px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_lct3.gif) no-repeat;
+}
+
+span.lct4{
+	display: block;
+	color:#FFFFFF;
+	width: 80px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_lct4.gif) no-repeat;
+}
+
+
+span.lct_t{
+	color: black;
+	font-weight:bold;
+}
+
+td.rct {
+	padding: 20px 50px;
+	width: 809px;
+}
+
+
+/* 게시판 버튼 -------------------- */
+
+table.tbtn {
+	padding: 10px 0px 10px 0px;
+}
+
+
+table.tbtn1 {
+	padding: 10px 0px 10px 0px;
+}
+
+table.tbtn1 {
+	padding: 10px 0px;
+}
+
+table.tbtn2 {
+	padding: 0px;
+}
+
+span.b_btn {
+	color:#484848;
+	display: block;
+	text-align: center;
+	line-height:20px;
+	font-weight:bold;
+}
+
+div.b_btn_rcmd {
+	color:#c5003d;
+	display: block;
+	width: 50px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_bg1.gif) no-repeat;
+}
+
+span.b_btn_rcmd {
+	color:#c5003d;
+	display: block;
+	width: 50px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_bg1.gif) no-repeat;
+}
+
+span.b_btn_rcmd a{
+	color:#c5003d;
+	display: block;
+	width: 50px;
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing:-1px;
+	line-height:18px;
+	font-weight:bold;
+	background: url(../imgs/skin/btn_bg1.gif) no-repeat;
+}
+
+
+
+input.b_n1{
+	display: block;
+	width: 12px;
+	height: 11px;
+	background: url(/images/page/page_rr.gif) no-repeat;
+}
+
+input.b_n2{
+	display: block;
+	width: 12px;
+	height: 11px;
+	background: url(/images/page/page_r.gif) no-repeat;
+}
+
+input.b_p1{
+	display: block;
+	width: 12px;
+	height: 11px;
+	background: url(/images/page/page_ll.gif) no-repeat;
+}
+
+input.b_p2{
+	display: block;
+	width: 12px;
+	height: 11px;
+	background: url(/images/page/page_l.gif) no-repeat;
+}
+
+input.find{
+	color: #666666;
+	font-size: 12px;
+	line-height:18px;
+	background: #f7f7f7;
+	border-width: 1px; border-style: solid; border-color: #d7d7d7; 
+}
+
+
+
+/* 덧글관련 -------------------- */
+table.rw {
+	background: #F0F0F0;
+	padding: 0px;
+	text-align:left;
+
+}
+
+td.rwl {
+	background: url(../imgs/skin/ln_dot1.gif) repeat-x left bottom;
+	padding: 10px;
+	width:809px;
+}
+
+
+.rwi {
+	color: black;
+	font-size: 12px;
+	line-height: 18px;
+	border-width: 1px; border-style: solid; border-color: #ffffff; 
+	width:715px;height:56px;
+}
+
+.rwi2 {
+	color: black;
+	font-size: 12px;
+	line-height: 18px;
+	border-width: 1px; border-style: solid; border-color: #ffffff; 
+}
+td.rwt {
+	font-weight: bold;
+}
+
+
+/* 리스트안에서 바로 읽기 테이블관련 -------------------- */
+
+.rd_intd_bg1  {
+	background: #f7f7f7;
+	border-width: 1px 0px 1px 0px; border-style: solid; border-color: #d3d5d7; 
+}
+
+
+/* --------------------------------------------------------------------------------------
+ 기타
+--------------------------------------------------------------------------------------- */
+
+/* 상태 -------------------- */
+
+.wd_ing1 {
+	display: block;
+	width: 70px;
+	height: 16px;
+	text-align: center;
+	color: #fb3f3f;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #ffebeb;
+	border-width: 1px; border-style: solid; border-color: #fb3f3f; 
+}
+
+.wd_ing2 {
+	display: block;
+	width: 70px;
+	height: 16px;
+	text-align: center;
+	color: #008e8f;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #e5f3f4;
+	border-width: 1px; border-style: solid; border-color: #008e8f; 
+}
+
+.wd_ing3 {
+	display: block;
+	width: 70px;
+	height: 16px;
+	text-align: center;
+	color: #c5003d;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #f9e5eb;
+	border-width: 1px; border-style: solid; border-color: #c5003d; 
+}
+
+.wd_ing4 {
+	display: block;
+	width: 50px;
+	height: 16px;
+	text-align: center;
+	color: #c5003d;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #f9e5eb;
+	border-width: 1px; border-style: solid; border-color: #c5003d; 
+}
+
+.wd_done1 {
+	display: block;
+	width: 50px;
+	height: 16px;
+	text-align: center;
+	color: #717171;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #eeeeee;
+	border-width: 1px; border-style: solid; border-color: #969696; 
+}
+
+
+.wd_ok1 {
+	display: block;
+	width: 70px;
+	height: 16px;
+	text-align: center;
+	color: #0157a4;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #e5eef6;
+	border-width: 1px; border-style: solid; border-color: #0157a4; 
+}
+
+
+.qa_ok1 {
+	display: block;
+	width: 50px;
+	height: 16px;
+	text-align: center;
+	color: #0157a4;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #e5eef6;
+	border-width: 1px; border-style: solid; border-color: #0157a4; 
+}
+
+.qa_nok1 {
+	display: block;
+	width: 50px;
+	height: 16px;
+	text-align: center;
+	color: #717171;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #eeeeee;
+	border-width: 1px; border-style: solid; border-color: #969696; 
+}
+
+
+.qa_ok1 {
+	display: block;
+	width: 50px;
+	height: 16px;
+	text-align: center;
+	color: #0157a4;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing:-1px;
+	font-weight: bold;
+	background: #e5eef6;
+	border-width: 1px; border-style: solid; border-color: #0157a4; 
+}

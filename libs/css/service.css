@@ -1,0 +1,51 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins service css
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ 기본설정
+--------------------------------------------------------------------------------------- */
+
+ul.privacy li { 
+	display:block; 
+	background:url(/images/popup/popup_icon_pri.gif) no-repeat 1px; 
+	padding: 2px 0px 0px 15px;
+	font-weight: bold;
+	line-height:18px;
+}
+
+
+ul.sitemap li { 
+	display:block; 
+	background:url(../service/imgs/sitemap_bg1.gif) no-repeat top left; 
+	padding: 2px 12px 0px 12px;
+	font-weight: bold;
+	line-height:20px;
+	font-size: 11px;
+	letter-spacing: -1px;
+}
+
+ul.sitemap li a{ 
+	color: #808080;
+}
+
+ul.sitemap li a:hover{ 
+	color: #c5003d;
+}
+
+ol.sitemap { 
+
+	padding: 5px 0;
+}
+
+
+ol.sitemap li { 
+
+	background: url(../service/imgs/ic11.gif) no-repeat top left; 
+	font-weight: lighter;
+	padding: 0px 10px;
+	line-height: 16px;
+}

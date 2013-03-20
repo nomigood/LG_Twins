@@ -1,0 +1,70 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins player css
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ 기본설정
+--------------------------------------------------------------------------------------- */
+
+.black_b {
+    color:#000000;
+	font-family:"돋움",Tahoma, Verdana;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.black_sb {
+    color:#000000;
+	font-family:"돋움",Tahoma, Verdana;
+	font-size: 11px;
+	letter-spacing: -1px;
+	font-weight:bold;
+}
+
+.black_sb a {
+    color:#000000;
+	font-family:"돋움",Tahoma, Verdana;
+	font-size: 11px;
+	letter-spacing: -1px;
+	font-weight:bold;
+}
+
+.red_b {
+    color:#C5003D;
+	font-family:"돋움",Tahoma, Verdana;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.white_b {
+    color:#ffffff;
+	font-family:"돋움",Tahoma, Verdana;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.white {
+    color:#424242;
+}
+
+
+.p_bar{
+	height:24px;
+	background: #EDEDED url(/images/player/col_bar.gif) no-repeat right top ;
+}
+
+.p_bar_none{
+	background: #EDEDED;
+	height:24px;
+}
+
+.pk2 {
+	color: #7A7A7A;
+}
+
+.pk2 a {
+	color: #7A7A7A;
+}
