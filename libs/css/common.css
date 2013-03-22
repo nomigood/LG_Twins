@@ -1,25 +1,6 @@
 /* --------------------------------------------------------------------------------------
  css 경로
 --------------------------------------------------------------------------------------- */
-
-/* 기본 -------------------- */
-@import url(main.css);
-@import url(skin.css);
-@import url(popup.css);
-
-/* 폴더별 -------------------- */
-@import url(community.css);
-@import url(customer.css);
-@import url(enjoy.css);
-@import url(game.css);
-@import url(introduce.css);
-@import url(mall.css);
-@import url(member.css);
-@import url(mytwins.css);
-@import url(player.css);
-@import url(service.css);
-@import url(twinsnews.css);
-
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +
 +　LG Twins 공통 css
@@ -1209,6 +1190,7 @@ table.ucc td{font-weight:bold;}
 /* float */
 .lfloat {float:left;}
 .rfloat {float:right;}
+.nfloat {float:none !important;}
 
 /* align */
 .lalign {text-align:left;}
@@ -1218,4 +1200,3 @@ table.ucc td{font-weight:bold;}
 /* display none*/
 .dnone {display:none;}
 .hidden {visibility: hidden;font-size:0;}
-*/

@@ -50,11 +50,747 @@
 
 #container .main_ctn ul li.ranking {margin-top:-2px;*margin-top:-3px;padding:0 8px;width:211px;height:206px;background:url(../img/main/ranking_bg.gif) no-repeat left bottom;overflow:hidden;}
 #container .main_ctn ul li.ranking table {margin-top:10px;width:100%;table-layout:fixed;font-size:11px;}
-#container .main_ctn ul li.ranking table thead th {padding:4px 0;text-align:center;background:#BD9D4C;color:#fff;}
+#container .main_ctn ul li.ranking table thead th {padding:4px 0;text-align:center;background:#b20048;color:#fff;}
 #container .main_ctn ul li.ranking table tbody tr.top td {background:#E5E5E5;border-bottom:1px solid #D5D5D5;color:#5C5C5C;}
 #container .main_ctn ul li.ranking table tbody tr.top td.ranking_number {color:#EB006B;}
 #container .main_ctn ul li.ranking table tbody td {padding:3px 0;text-align:center;background:#FAFAFA;border-bottom:1px solid #EDEDED;color:#979797;}
 #container .main_ctn ul li.ranking table tbody td.ranking_number {font-weight:bold;color:#616161;}
 
 #container .banner {margin:0 auto 40px auto;width:933px;}
-#container .banner a {float:left;margin-right:19px}
+#container .banner a {float:left;margin-right:19px}
+
+
+~
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++　LG Twins 메인 css
++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* --------------------------------------------------------------------------------------
+ 상단이미지
+--------------------------------------------------------------------------------------- */
+
+/* 상단 왼쪽 기본 -------------------- */
+
+div#hd-lf {
+	background: url(../imgs/hdimg/hd_lf_p1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+
+/* 상단 왼쪽 선수 랜덤 이미지 18개 + 봄이미지 2개 -------------------- */
+
+div#hd-lf-p1 {
+	background: url(../imgs/hdimg/hd_lf_p1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p2 {
+	background: url(../imgs/hdimg/hd_lf_p2.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p3 {
+	background: url(../imgs/hdimg/hd_lf_p3.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p4 {
+	background: url(../imgs/hdimg/hd_lf_p4.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p5 {
+	background: url(../imgs/hdimg/hd_lf_p5.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p6 {
+	background: url(../imgs/hdimg/hd_lf_p6.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p7 {
+	background: url(../imgs/hdimg/hd_lf_p7.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p8 {
+	background: url(../imgs/hdimg/hd_lf_p8.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p9 {
+	background: url(../imgs/hdimg/hd_lf_p9.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p10 {
+	background: url(../imgs/hdimg/hd_lf_p10.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p11 {
+	background: url(../imgs/hdimg/hd_lf_p11.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p12 {
+	background: url(../imgs/hdimg/hd_lf_p12.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p13 {
+	background: url(../imgs/hdimg/hd_lf_p13.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p14 {
+	background: url(../imgs/hdimg/hd_lf_p14.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p15 {
+	background: url(../imgs/hdimg/hd_lf_p15.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p16 {
+	background: url(../imgs/hdimg/hd_lf_p16.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p17 {
+	background: url(../imgs/hdimg/hd_lf_p17.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p18 {
+	background: url(../imgs/hdimg/hd_lf_p18.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p19 {
+	background: url(../imgs/hdimg/hd_lf_p19.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p20 {
+	background: url(../imgs/hdimg/hd_lf_p20.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p21 {
+	background: url(../imgs/hdimg/hd_lf_p21.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p22 {
+	background: url(../imgs/hdimg/hd_lf_p22.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p23 {
+	background: url(../imgs/hdimg/hd_lf_p23.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p24 {
+	background: url(../imgs/hdimg/hd_lf_p24.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p25 {
+	background: url(../imgs/hdimg/hd_lf_p25.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p26 {
+	background: url(../imgs/hdimg/hd_lf_p26.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p27 {
+	background: url(../imgs/hdimg/hd_lf_p27.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p28 {
+	background: url(../imgs/hdimg/hd_lf_p28.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-p29 {
+	background: url(../imgs/hdimg/hd_lf_p29.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p30 {
+	background: url(../imgs/hdimg/hd_lf_p30.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p31 {
+	background: url(../imgs/hdimg/hd_lf_p31.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p32 {
+	background: url(../imgs/hdimg/hd_lf_p32.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p33 {
+	background: url(../imgs/hdimg/hd_lf_p33.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p34 {
+	background: url(../imgs/hdimg/hd_lf_p34.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p35 {
+	background: url(../imgs/hdimg/hd_lf_p35.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p36 {
+	background: url(../imgs/hdimg/hd_lf_p36.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p37 {
+	background: url(../imgs/hdimg/hd_lf_p37.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p38 {
+	background: url(../imgs/hdimg/hd_lf_p38.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p39 {
+	background: url(../imgs/hdimg/hd_lf_p39.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p40 {
+	background: url(../imgs/hdimg/hd_lf_p40.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p41 {
+	background: url(../imgs/hdimg/hd_lf_p41.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p42 {
+	background: url(../imgs/hdimg/hd_lf_p42.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p43 {
+	background: url(../imgs/hdimg/hd_lf_p43.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p44 {
+	background: url(../imgs/hdimg/hd_lf_p44.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p45 {
+	background: url(../imgs/hdimg/hd_lf_p45.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p46 {
+	background: url(../imgs/hdimg/hd_lf_p46.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p47 {
+	background: url(../imgs/hdimg/hd_lf_p47.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p48 {
+	background: url(../imgs/hdimg/hd_lf_p48.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-p49 {
+	background: url(../imgs/hdimg/hd_lf_p49.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+/* 상단 왼쪽 이미지 5개 -------------------- */
+
+div#hd-lf-e1 {
+	background: url(../imgs/hdimg/hd_lf_e1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-e2 {
+	background: url(../imgs/hdimg/hd_lf_e2.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-e3 {
+	background: url(../imgs/hdimg/hd_lf_e3.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-e4 {
+	background: url(../imgs/hdimg/hd_lf_e4.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-e5 {
+	background: url(../imgs/hdimg/hd_lf_e5.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e6 {
+	background: url(../imgs/hdimg/hd_lf_e6.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e7 {
+	background: url(../imgs/hdimg/hd_lf_e7.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e8 {
+	background: url(../imgs/hdimg/hd_lf_e8.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e9 {
+	background: url(../imgs/hdimg/hd_lf_e9.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e10 {
+	background: url(../imgs/hdimg/hd_lf_e10.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e11 {
+	background: url(../imgs/hdimg/hd_lf_e11.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e12 {
+	background: url(../imgs/hdimg/hd_lf_e12.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e13 {
+	background: url(../imgs/hdimg/hd_lf_e13.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e14 {
+	background: url(../imgs/hdimg/hd_lf_e14.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e15 {
+	background: url(../imgs/hdimg/hd_lf_e15.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-e16 {
+	background: url(../imgs/hdimg/hd_lf_e16.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+/* 상단 왼쪽 상황별 이미지 5개 -------------------- */
+
+/* 상단 왼쪽 상황별 이미지 4개(3.5월은 어린이달)에 적용 --------------------*/
+
+div#hd-lf-f1 {
+	background: url(../imgs/hdimg/hd_lf_f1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f2 {
+	background: url(../imgs/hdimg/hd_lf_f2.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f3 {
+	background: url(../imgs/hdimg/hd_lf_f3.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f4 {
+	background: url(../imgs/hdimg/hd_lf_f4.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f5 {
+	background: url(../imgs/hdimg/hd_lf_f5.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f6 {
+	background: url(../imgs/hdimg/hd_lf_f6.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-f7 {
+	background: url(../imgs/hdimg/hd_lf_f7.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+/* 오키나와 이미지 # */
+div#hd-lf-o1 {
+	background: url(../imgs/hdimg/hd_lf_o1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+div#hd-lf-o2 {
+	background: url(../imgs/hdimg/hd_lf_o2.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+/* # 오키나와 이미지 */
+
+/* 상단 왼쪽 상황별 이미지 3개 ----*/
+
+/* -------------------
+1. 시즌개막
+2. 경기중 배경이미지
+3. 5월은 어린이달
+4. 우천취소
+5. 봄.야구의시작
+-------------------- */
+
+div#hd-lf-m1 {
+	background: url(../imgs/hdimg/hd_lf_m1.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-m2 {
+	background: url(../imgs/hdimg/hd_lf_m2.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-m3 {
+	background: url(../imgs/hdimg/hd_lf_m3.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-m4 {
+	background: url(../imgs/hdimg/hd_lf_m4.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-lf-m5 {
+	background: url(../imgs/hdimg/hd_lf_m5.jpg) no-repeat left top;
+	width: 510px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+
+/* 상단 오른쪽 이미지 -------------------- */
+
+div#hd-rt {
+	background: url(../imgs/hdimg/hd_rt_img0.jpg) no-repeat left top;
+	width: 470px;
+	height: 360px;
+	display:block;
+	float: left;
+}
+
+div#hd-rt p {
+	padding: 35px 0px 0px 1px;
+}
+
+
+/* --------------------------------------------------------------------------------------
+ 컨텐츠
+--------------------------------------------------------------------------------------- */
+
+/* 로그인 -------------------- */
+
+div#ct-log {
+	position:absolute;
+	top: 340px;
+	left: 5px;
+	height: 60px;
+	width: 235px;
+	z-index:2;
+}
+
+div#ct-main {
+	float: left;
+	background: url(../imgs/ct_main_bg0.jpg) no-repeat left top;
+	width: 980px;
+	left: 5px;
+	position: relative;
+}
+
+div#ct-main-lf  {
+	float: left;
+	top: 55px;
+	left: 10px;
+	width: 215px;
+	position: relative;
+}
+
+/* 다음경기,경기결과,팀순위,경기일정,트윈스TV -------------------- */
+
+div#ct-main-lf1 {
+	height: 175px;
+	width: 215px;
+}
+
+
+/* 경매,쇼핑몰,포인트몰 -------------------- */
+
+div#ct-main-lf2 {
+	width: 215px;
+}
+
+
+/* 가운데 영역 -------------------- */
+
+div#ct-main-ct {
+	float: left;
+	top: 10px;
+	left: 35px;
+	width: 475px;
+	position: relative;
+}
+
+
+
+
+/* 오른쪽 영역 -------------------- */
+
+div#ct-main_rt {
+	float: left;
+	top: 10px;
+	left: 60px;
+	width: 215px;
+	position: relative;
+}
+
+/* 아래 광고 영역 -------------------- */
+
+div#ct-main_btm {
+	clear: both;
+	position: absolute;
+	top: 347px;
+	left: 10px;
+	width: 720px;
+	height: 65;
+	vertical-align: center;
+}
+
+
+

@@ -1,8 +1,31 @@
 @charset "utf-8";
+/* 신규 -------------------- */
 @import url("common.css");
 @import url("main.css");
 @import url("sub.css");
 @import url("board.css");
+
+/* 기본 -------------------- */
+@import url("main.css");
+@import url("skin.css");
+@import url("popup.css");
+@import url("base.css");
+@import url("wa_board.css");
+@import url("wa_layout.css");
+@import url("wa_sub.css");
+
+/* 폴더별 -------------------- */
+@import url("community.css");
+@import url("customer.css");
+@import url("enjoy.css");
+@import url("game.css");
+@import url("introduce.css");
+@import url("mall.css");
+@import url("member.css");
+@import url("mytwins.css");
+@import url("player.css");
+@import url("service.css");
+@import url("twinsnews.css");
 /* ============================================================
  * DigitalBaySystem
  * nomi (nomi@dbays.com)
@@ -18,7 +41,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;p
 body,input,textarea,select,button,table{font-family:'맑은고딕',Malgun Gothic,dotum,sans-serif;font-size:12px;-webkit-text-size-adjust:none;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
-body {line-height: 1;}
+body {line-height: 1;background:none !important;}
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
@@ -90,10 +113,21 @@ html,body {width:100%;height:100%}
 #header .gnb li a.customer {width:54px;background-position: 0 -112px}
 
 /**************************************************************
+ * gnb 2depth img
+ **************************************************************/ 
+#header .gnb_2depth .gnb_img_01 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_01.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_02 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_02.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_03 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_03.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_04 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_04.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_05 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_05.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_06 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_06.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_07 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_07.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_08 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_08.png) no-repeat 0 0;}
+
+/**************************************************************
  * gnb 2depth
  **************************************************************/ 
 #header .gnb_2depth {position:absolute;padding-top:15px;width:978px;height:auto;background:#dedede;border:1px solid #af124c;overflow:hidden;z-index: 10000}
-#header .gnb_2depth span {float:left;width:141px;}
 #header .gnb_2depth ul {float:left;margin-bottom:15px;height:190px;background:url(../img/common/gnb_bar_02.png) repeat-y right top;}
 #header .gnb_2depth ul.news {margin-left:7px;}
 #header .gnb_2depth ul.customer {width:50px;background: none;}
@@ -202,6 +236,11 @@ html,body {width:100%;height:100%}
 #aside .snb li a.club04 {background-position: 0 -462px}
 #aside .snb li a.customer01 {background-position: 0 -476px}
 #aside .snb li a.customer02 {background-position: 0 -490px}
+#aside .snb li a.mytwins01 {background-position: 0 -504px}
+#aside .snb li a.mytwins02 {background-position: 0 -518px}
+#aside .snb li a.mytwins03 {background-position: 0 -532px}
+#aside .snb li a.mytwins04 {background-position: 0 -546px}
+#aside .snb li a.mytwins05 {background-position: 0 -560px}
 
 /**************************************************************
  * snb active
@@ -245,6 +284,11 @@ html,body {width:100%;height:100%}
 #aside .snb li.active a.club04 {background-position: 0 -462px}
 #aside .snb li.active a.customer01 {background-position: 0 -476px}
 #aside .snb li.active a.customer02 {background-position: 0 -490px}
+#aside .snb li.active a.mytwins01 {background-position: 0 -504px}
+#aside .snb li.active a.mytwins02 {background-position: 0 -518px}
+#aside .snb li.active a.mytwins03 {background-position: 0 -532px}
+#aside .snb li.active a.mytwins04 {background-position: 0 -546px}
+#aside .snb li.active a.mytwins05 {background-position: 0 -560px}
 
 /**************************************************************
  * snb 2depth

@@ -6,21 +6,29 @@
 ============================================================ */
 
 /**************************************************************
- * board search
+ * 게시판 검색
  **************************************************************/
 .board_srch {margin-top:10px;padding:12px 20px 11px;width:770px;background:url(../img/common/board_srch_bg.png) repeat-x 0 0;overflow:hidden;}
 .board_srch select {float:left;margin-right:5px;width:82px;height:20px;border:1px solid #820030;}
 .board_srch label {display:none}
+.board_srch label.show {float:left;margin-right:7px;line-height:18px;color:#fff;display:inline;}
+.board_srch span {float:left;margin-right:10px;padding-right:10px;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
+.board_srch span em {float:left;margin:0 3px;line-height:16px;color:#fff;}
 .board_srch input {float:left;padding-left:3px;width:230px;height:16px;color:#fff;border:1px solid #820030;background:#c83c80;}
+.board_srch input.date_srch {width:68px;height:16px;}
+.board_srch input.number {}
 .board_srch input[type=button].search {float:left;margin-left:5px;width:23px;height:20px;border:none;background:url(../img/common/btn_srch.png) repeat-x 0 0;}
 .board_srch input[type=button].move {float:left;margin-left:5px;width:39px;height:20px;border:none;background:url(../img/common/btn_move.png) repeat-x 0 0;}
+.board_srch p {line-height:20px;color:#fff;}
+.board_srch p strong {font-weight:bold;color:#fffc00;}
 
 /**************************************************************
- * board list
+ * 게시판 리스트
  **************************************************************/
 .board_list {margin-top:15px;width:100%;}
 .board_list .number {color:#666;}
 .board_list .subject {text-align:left;color:#454545;}
+.board_list .result {font-weight:bold;color:#454545;}
 .board_list thead tr th {height:27px;background: #5F5F5F;color:#fff;font-weight:bold;}
 .board_list tbody tr.notice {background:#f5f5f5;}
 .board_list tbody tr td {padding:6px 0;height:15px;line-height:15px;text-align:center;color:#777;border:1px solid #dcdcdc;border-left:none;border-right:none;}
@@ -29,15 +37,19 @@
 .board_list tbody tr td i.mobile {width:14px;height:15px;background:url(../img/common/icon_mobile.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
 
 /**************************************************************
- * 페이징
+ * 마일리지 리스트
  **************************************************************/
-.pagination {padding:30px 0;text-align:center;color:#070707;display:block;}
-.pagination a {padding:0 8px;height:24px;line-height:24px;font-size:1.083333333333333em;font-weight:bold;vertical-align:top;display:inline-block;}
-.pagination a.active {font-weight:bold;color:#ff0658;}
-.pagination .first {padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .prev {margin-left:-5px;padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .next {margin-right:-5px;padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
-.pagination .end {padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.mileage_list {margin-top:40px;width:100%;}
+.mileage_list h1 {margin-bottom:20px;}
+.mileage_list table thead tr th {height:30px;background: #f2f2f2;color:#343434;font-weight:bold;border-top:2px solid #de0061;border-bottom:1px solid #e0e0e0;border-right:1px solid #e0e0e0;}
+.mileage_list table thead tr th.last {border-right:none;}
+.mileage_list table tbody tr.notice {background:#f5f5f5;}
+.mileage_list table tbody tr td.date {color:#999999;}
+.mileage_list table tbody tr td.subject {text-align:left}
+.mileage_list table tbody tr td {padding:10px 0;height:15px;line-height:15px;text-align:center;color:#454545;border:1px solid #dcdcdc;border-left:none;border-right:none;}
+.mileage_list table tbody tr td i {margin-left:5px;}
+.mileage_list table tbody tr td i.new {width:32px;height:13px;background:url(../img/common/icon_new.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
+.mileage_list table tbody tr td i.mobile {width:14px;height:15px;background:url(../img/common/icon_mobile.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
 
 /**************************************************************
  * 미디어 리스트
@@ -49,6 +61,14 @@
 .media_list ul li p.name {margin-top:5px;text-align:right;}
 .media_list ul li p.name strong {margin-right:10px;color:#v454545;}
 .media_list ul li p.name em {padding-left:10px;background:url(../img/common/name_bar.png) no-repeat left 50%;color:#454545;}
+
+/**************************************************************
+ * 미디어 리스트
+ **************************************************************/
+.faq_list {border-top:1px solid #df0061;display:block;overflow:hidden;}
+.faq_list strong {font-weight:bold;color:#454545;}
+.faq_list dl dt {padding:9px 10px;border-bottom:1px solid #e0e0e0;color:#454545;}
+.faq_list dl dd {padding:9px 10px;border-bottom:1px solid #e0e0e0;background:#f2f2f2 url(../img/common/answer_icon.png) no-repeat 15px -2px;color:#666666;text-indent:60px;}
 
 /**************************************************************
  * view
@@ -96,8 +116,9 @@
 .comment .cmt_write {padding:15px;background:#f0f0f0;overflow:hidden;}
 .comment .cmt_write textarea {float:left;margin-right:5px;width:670px;height:54px;border:1px solid #e0e0e0; resize:none;}
 .comment .cmt_write input[type=submit] {width:58px;height:58px;}
+.comment .cmt_list {padding:0 10px;}
 .comment .cmt_list li {padding:10px 0;border-bottom:1px dotted #ccc;}
-.comment .cmt_list p {margin-bottom:10px;line-height:17px;}
+.comment .cmt_list p {margin:0 0 10px 0;line-height:17px;word-break: break-all}
 .comment .cmt_list p strong {text-align:left;color:#333;font-weight:bold;}
 .comment .cmt_list p em {float:right;}
 
@@ -121,6 +142,16 @@
 .info_box {margin-top:10px;padding:13px;background:#e3e3e3;}
 .info_box p {line-height:20px;color:#666666;}
 
+/**************************************************************
+ * 페이징
+ **************************************************************/
+.pagination {padding:30px 0;text-align:center;color:#070707;display:block;}
+.pagination a {padding:0 8px;height:24px;line-height:24px;font-size:1.083333333333333em;font-weight:bold;vertical-align:top;display:inline-block;}
+.pagination a.active {font-weight:bold;color:#ff0658;}
+.pagination .first {margin-right:-4px;padding:0;width:24px;height:24px;background:url(../img/common/paging_first.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .prev {padding:0;width:25px;height:24px;background:url(../img/common/paging_prev.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .next {padding:0;width:25px;height:24px;background:url(../img/common/paging_next.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
+.pagination .end {margin-left:-4px;padding:0;width:24px;height:24px;background:url(../img/common/paging_end.png) repeat-x 0 0;text-indent:-9000px;font-size:0;display:inline-block;overflow:hidden;}
 
 /**************************************************************
  * 버튼
@@ -135,6 +166,7 @@
 .btn_delete,
 .btn_edit,
 .btn_save,
+.btn_regi,
 .btn_write {float:left;margin-left:3px;width:54px;height:23px;border:none;background:url(../img/common/board_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
 .btn_prev {background-position: 0 0;}
@@ -146,6 +178,7 @@
 .btn_edit {background-position: 0 -138px;}
 .btn_write {background-position: 0 -161px;}
 .btn_save {background-position: 0 -184px;}
+.btn_regi {background-position: 0 -207px;}
 
 /**************************************************************
  * 주의사항

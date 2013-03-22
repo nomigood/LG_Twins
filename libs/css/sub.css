@@ -45,8 +45,37 @@
 .entry_list table tbody {border-bottom:3px solid #C2004E;}
 .entry_list table tbody tr th {padding:9px 0;background:#ECECEC;color:#454545;border-bottom:1px solid #fff;}
 .entry_list table tbody tr td {padding-left:5px;color:#454545;border-bottom:1px solid #ECECEC;}
+/**************************************************************
+ * 트윈스선수단
+ **************************************************************/
+.new_player_list ul {width:100%;margin-bottom:20px;overflow:hidden;}
+.new_player_list li {float:left;width:138px;height:194px;margin-right:30px;background:url(../img/sub/player_bg.gif) no-repeat 0 0;}
+.new_player_list li:last-of-type {margin-right:0;}
+.new_player_list li.last {margin-right:0;}
+.new_player_list li p {padding:0 10px 0 13px;width:115px;height:28px;line-height: 28px;color:#fff;text-align:left;border:none;}
+.new_player_list li p span {float:right;}
+.new_player_list li a {text-align:center;display:block;}
+.new_player_list p {padding:0 10px;line-height:28px;border:1px solid #c1c7ca;text-align:right;color:#7d7d7d}
+.new_player_list p em {color:#c41148}
 
+/**************************************************************
+ * 마이트윈스
+ **************************************************************/
+.myfavorite {margin-bottom:20px;padding:10px 0 30px 0;border-bottom:1px dashed #999999;text-align:center;}
+.myfavorite p {margin:0.5em;}
+.myfavorite p.highlight {margin-top:15px;color:#c40452;}
+.myfavorite p.highlight2 {margin:0 auto;padding:4px 0;width:250px;color:#fff;background:#a82847;}
+.myfavorite p strong {font-weight:bold;color:#fffc00;}
 
+/**************************************************************
+ * 마이트윈스
+ **************************************************************/
+.mymileage {width:520px;margin:0 auto 20px;padding:10px 0 30px 0;border-top:2px solid #d0004f;border-bottom:1px dashed #999999;text-align:center;}
+.mymileage p {line-height:24px;color:#777777;}
+.mymileage p strong {color:#454545;font-weight:bold;}
+.mymileage p em {font-weight:bold;color:#c40452;}
+.mymileage p.highlight {margin:0 auto;width:407px;background:#656565;color:#fff;}
+.mymileage p.highlight strong {color:#f4d7e8;}
+.mymileage p.highlight2 {margin:5px auto 0;width:445px;background:#808080;color:#fff}
 
-
-
+.mymileage_srch {width:520px;margin:0 auto 20px;padding:10px 0 30px 0;border-bottom:1px dashed #999999;text-align:center;}
