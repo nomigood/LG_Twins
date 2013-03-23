@@ -6,13 +6,13 @@
 ============================================================ */
 
 /**************************************************************
- * 게시판 검색
+ * 게시판 상단 검색
  **************************************************************/
 .board_srch {margin-top:10px;padding:12px 20px 11px;width:770px;background:url(../img/common/board_srch_bg.png) repeat-x 0 0;overflow:hidden;}
 .board_srch select {float:left;margin-right:5px;width:82px;height:20px;border:1px solid #820030;}
 .board_srch label {display:none}
 .board_srch label.show {float:left;margin-right:7px;line-height:18px;color:#fff;display:inline;}
-.board_srch span {float:left;margin-right:10px;padding-right:10px;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
+.board_srch span {float:left;margin-right:10px;padding-right:10px;line-height:20px;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
 .board_srch span em {float:left;margin:0 3px;line-height:16px;color:#fff;}
 .board_srch input {float:left;padding-left:3px;width:230px;height:16px;color:#fff;border:1px solid #820030;background:#c83c80;}
 .board_srch input.date_srch {width:68px;height:16px;}
@@ -21,6 +21,13 @@
 .board_srch input[type=button].move {float:left;margin-left:5px;width:39px;height:20px;border:none;background:url(../img/common/btn_move.png) repeat-x 0 0;}
 .board_srch p {line-height:20px;color:#fff;}
 .board_srch p strong {font-weight:bold;color:#fffc00;}
+
+/**************************************************************
+ * 어드민 게시판 상단 검색
+ **************************************************************/
+.board_srch_admin select {width:70px;}
+.board_srch_admin .views {width:32px;}
+.board_srch_admin input.date_srch {width:50px;height:16px;}
 
 /**************************************************************
  * 게시판 리스트
@@ -76,6 +83,7 @@
 .board_view_header h1 {width:100%;height:27px;line-height:27px;background:#70777d;text-align:center;color:#fff;font-weight:bold;}
 .board_view_header p {width:100%;height:27px;line-height:27px;background:#3c4145;color:#fff;}
 .board_view_header p .number {float:left;margin-left:35px;}
+.board_view_header p .name {float:left;margin-left:47px;}
 .board_view_header p .date {float:left;margin-left:47px;}
 .board_view_header p .hit {float:right;margin-right:28px;}
 .board_view {margin-bottom:30px;padding:30px 20px;width:770px;border-bottom:1px solid #e0e0e0;}
@@ -113,7 +121,7 @@
 /**************************************************************
  * 댓글
  **************************************************************/
-.comment .cmt_write {padding:15px;background:#f0f0f0;overflow:hidden;}
+.comment .cmt_write {margin-top:20px;padding:15px;background:#f0f0f0;overflow:hidden;}
 .comment .cmt_write textarea {float:left;margin-right:5px;width:670px;height:54px;border:1px solid #e0e0e0; resize:none;}
 .comment .cmt_write input[type=submit] {width:58px;height:58px;}
 .comment .cmt_list {padding:0 10px;}
@@ -121,6 +129,10 @@
 .comment .cmt_list p {margin:0 0 10px 0;line-height:17px;word-break: break-all}
 .comment .cmt_list p strong {text-align:left;color:#333;font-weight:bold;}
 .comment .cmt_list p em {float:right;}
+
+.nemoticon {margin-bottom:5px;overflow:hidden;}
+.nemoticon li {float:left;background: none; }
+.nemoticon li.rt {float:right;}
 
 /**************************************************************
  * 달력
@@ -167,6 +179,11 @@
 .btn_edit,
 .btn_save,
 .btn_regi,
+.btn_rcm,
+.btn_hidden,
+.btn_show,
+.btn_reply,
+.btn_report,
 .btn_write {float:left;margin-left:3px;width:54px;height:23px;border:none;background:url(../img/common/board_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
 .btn_prev {background-position: 0 0;}
@@ -179,6 +196,13 @@
 .btn_write {background-position: 0 -161px;}
 .btn_save {background-position: 0 -184px;}
 .btn_regi {background-position: 0 -207px;}
+.btn_rcm {background-position: 0 -230px;}
+.btn_hidden {background-position: 0 -253px;}
+.btn_show {background-position: 0 -276px;}
+.btn_reply {background-position: 0 -299px;}
+.btn_report {background-position: 0 -322px;}
+
+.btn_notice {float:left;width:86px;height:23px;border:none;background:url(../img/common/board_notice_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
 /**************************************************************
  * 주의사항

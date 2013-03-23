@@ -5,27 +5,6 @@
 @import url("sub.css");
 @import url("board.css");
 
-/* 기본 -------------------- */
-@import url("main.css");
-@import url("skin.css");
-@import url("popup.css");
-@import url("base.css");
-@import url("wa_board.css");
-@import url("wa_layout.css");
-@import url("wa_sub.css");
-
-/* 폴더별 -------------------- */
-@import url("community.css");
-@import url("customer.css");
-@import url("enjoy.css");
-@import url("game.css");
-@import url("introduce.css");
-@import url("mall.css");
-@import url("member.css");
-@import url("mytwins.css");
-@import url("player.css");
-@import url("service.css");
-@import url("twinsnews.css");
 /* ============================================================
  * DigitalBaySystem
  * nomi (nomi@dbays.com)
