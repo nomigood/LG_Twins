@@ -44,6 +44,20 @@
 .board_list tbody tr td i.mobile {width:14px;height:15px;background:url(../img/common/icon_mobile.png) repeat-x 0 0;display:inline-block;text-indent: -9000px;}
 
 /**************************************************************
+ * Q&A list
+ **************************************************************/
+.board_list tbody tr.qna_answer td {padding:0;border-bottom:1px solid #c40452;background:#f2f2f2}
+.board_list tbody tr.qna_answer td dl {position:relative;clear:both;padding:15px 0;border-bottom:1px dashed #b0b0b0;overflow:hidden;}
+.board_list tbody tr.qna_answer td dl.top_border {border-top:1px solid #c40452 !important;}
+.board_list tbody tr.qna_answer td dl dt {float:left;position:absolute;top:50%;left:0;margin-top:-6px;width:70px;color:#c40452;text-align:center;vertical-align: middle;}
+.board_list tbody tr.qna_answer td dl dd {float:left;margin-left:70px;color:#454545;text-align:left;}
+.board_list tbody tr.qna_answer td dl dd.ctn_area {padding:0 20px;width:530px;}
+.board_list tbody tr.qna_answer td dl dd.btn_area {position:absolute;right:0;top:50%;margin-top:-11px;padding:0 15px;width:140px;}
+.board_list tbody tr.qna_answer td dl dd.btn_area a {margin-right:3px;}
+.board_list tbody tr.qna_answer td dl dd.btn_area a:last-of-type {margin-right:0;}
+.board_list tbody tr.qna_answer td dl dd strong {font-weight:bold;}
+
+/**************************************************************
  * 마일리지 리스트
  **************************************************************/
 .mileage_list {margin-top:40px;width:100%;}
@@ -104,9 +118,11 @@
 .board_write_header dl dd input[type=text] {height:18px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
 .board_write_header dl dd input[type=file] {height:22px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
 .board_write_header dl dd input.subject_input {width:650px;}
+.board_write_header dl dd textarea {width:650px;border:1px solid #e0e0e0; background:#fafafa;font-size:1em;}
 .board_write_header dl dt.release,
 .board_write_header dl dt.align,
 .board_write_header dl dt.main {margin-left:40px;}
+.board_write_header dl > dt.subject {margin-top:70px;}
 
 .movie_write_header {position:relative;margin-bottom:20px;padding:15px;border:3px solid #E7E7E7;}
 .movie_write_header p {line-height:20px;color:#000;}
@@ -117,6 +133,9 @@
 .board_write textarea {width:100%;border:1px solid #C2C2C2;resize:none;}
 .photo_text {clear:both;margin:10px 0 0 90px;}
 .photo_text textarea {border:1px solid #C2C2C2;resize:none;}
+
+.board_write2 {text-align:center;margin-bottom:20px;padding:20px 0;border-bottom:1px solid #E0E0E0;}
+.board_write2 textarea {width:100%;border:1px solid #C2C2C2;resize:none;}
 
 /**************************************************************
  * 댓글
@@ -170,6 +189,7 @@
  **************************************************************/
 .btn_date {margin-left:5px;width:43px;height:22px;border:none;background:url(../img/common/btn_date.png) repeat-x 0 0;}
 .board_btn {float:right;}
+.board_btn select {margin-right:5px;width:90px;height:23px;border:1px solid #abadb3;}
 .btn_prev,
 .btn_next,
 .btn_list,
@@ -203,6 +223,9 @@
 .btn_report {background-position: 0 -322px;}
 
 .btn_notice {float:left;width:86px;height:23px;border:none;background:url(../img/common/board_notice_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_replysrc {float:left;width:79px;height:23px;border:none;background:url(../img/common/board_replysrc_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_reply_edit {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_edit.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_reply_delete {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_delete.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
 /**************************************************************
  * 주의사항

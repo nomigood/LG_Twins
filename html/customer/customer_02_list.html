@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<title>서울의 자존심 LG트윈스! - 트윈스뉴스</title>
+	<title>서울의 자존심 LG트윈스! - Q&amp;A</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="stylesheet" href="../../libs/css/layout.css" />
@@ -33,14 +33,14 @@
 				<!-- gnb -->
 				<div class="article">
 					<ul id="gnb" class="gnb">
-						<li><a href="../news/news_01.html" class="news active">트윈스뉴스</a></li>
+						<li><a href="../news/news_01.html" class="news">트윈스뉴스</a></li>
 						<li><a href="../info/info_01.html" class="info">경기정보</a></li>
 						<li><a href="../team/team_01.html" class="team">트윈스선수단</a></li>
 						<li><a href="../about/about_01.html" class="about">구단소개</a></li>
 						<li><a href="../mall/mall_01.html" class="mall">쇼핑몰</a></li>
 						<li><a href="../community/community_01.html" class="community">팬커뮤니티</a></li>
 						<li><a href="../club/club_01.html" class="club">보이스팬클럽</a></li>
-						<li class="end"><a href="../customer/customer_01.html" class="customer">고객문의</a></li>
+						<li class="end"><a href="../customer/customer_01.html" class="customer active">고객문의</a></li>
 					</ul>
 				</div>
 				<!-- //gnb -->
@@ -105,8 +105,7 @@
 			<!-- /#content_wrap -->
 			<!-- #visual_wrap -->
 			<div class="visual_wrap">
-				<div class="article sub_visual_news">
-				</div>
+				<div class="article sub_visual_customer"></div>
 			</div>
 			<!-- /#visual_wrap -->
 		</div>
@@ -116,22 +115,15 @@
 		<div id="sub_container">
 			<!-- #aside -->
 			<div id="aside">
-				<h2><img src="../../libs/img/sub/gnb_title_news.png" alt="트윈스뉴스"></h2>
+				<h2><img src="../../libs/img/sub/gnb_title_customer.png" alt="고객문의"></h2>
 				<!-- snb -->
 				<ul class="snb">
-					<li class="active"><a href="news_01.html" class="news01">트윈스뉴스</a></li>
-					<li><a href="news_02.html" class="news02">트윈스TV</a></li>
-					<li><a href="news_03.html" class="news03">집중분석</a></li>
-					<li><a href="news_04.html" class="news04">테마포트</a></li>
+					<li><a href="customer_01.html" class="customer01">FAQ</a></li>
+					<li class="active"><a href="customer_02.html" class="customer02">Q&amp;A</a></li>
 				</ul>
 				<!-- //snb -->
 				<div class="box">
-					<ul class="left_quick">
-						<li><a href="" class="left_quick01">연간권조회</a></li>
-						<li><a href="" class="left_quick02">쌍둥이마당</a></li>
-						<li><a href="" class="left_quick03">입장권구매</a></li>
-						<li><a href="" class="left_quick04">선수검색</a></li>
-					</ul>
+					
 				</div>
 			</div>
 			<!-- /#aside -->
@@ -139,119 +131,123 @@
 			<div id="section">
 				<!-- path -->
 				<div class="path">
-					<a href="">홈</a><em>></em><a href="">트윈스뉴스</a><em>></em><a href="">트윈스뉴스</a>
+					<a href="">홈</a><em>></em><a href="">고객문의</a><em>></em><a href="">Q&amp;A</a>
 				</div>
 				<!-- //path -->
 				<div class="article">
-					<h3 class="pg_title"><img src="../../libs/img/sub/news_title_01.png" alt="LG트윈스의 새로운 소식을 전합니다." /></h3>
+					<h3 class="pg_title"><img src="../../libs/img/sub/customer_title_02.png" alt="LG트윈스에 문의하실 사항은 우선 'FAQ'를 참조하신 뒤, 여기에서 문의해주세요." /></h3>
 				</div>
 				<div class="article">
 					<form class="board_srch">
-						<div class="input_area rfloat">
-							<select>
-								<option>2013년</option>
-							</select>
-							<label for="srch_input" class="hidden">게시판 검색</label>
-							<input type="text" name="" id="srch_input"/>
-							<input type="button" class="search" />
-						</div>
-						<!-- <div class="select_area lfloat">
-							<select>
-								<option>전체</option>
-							</select>
+						<div class="input_area lfloat">
 							<select>
 								<option>선택</option>
 							</select>
-						</div> -->
+							<label for="srch_input" class="hidden">게시판 검색</label>
+							<input type="text" name="" id="srch_input"/>
+							<input type="button" class="search"/>
+						</div>
+						<div class="select_area rfloat">
+							<select>
+								<option>전체</option>
+							</select>
+						</div>
 					</form>
 					<table class="board_list">
 						<caption class="hidden">트윈스뉴스 게시판</caption>
 						<colgroup>
 							<col width="70"/>
-							<col width="440"/>
-							<col width="100"/>
-							<col width="100"/>
-							<col width="100"/>
+							<col width="335"/>
+							<col width="55"/>
+							<col width="160"/>
+							<col width="95"/>
+							<col width="95"/>
 						</colgroup>
 						<thead>
 							<tr>
 								<th>번호</th>
 								<th>제목</th>
+								<th>삭제</th>
 								<th>작성자</th>
 								<th>등록일</th>
-								<th>조회</th>
+								<th>확인여부</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="news_view_01.html">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
+							<tr>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_identified.png" alt="확인"/></td>
 							</tr>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr class="notice">
-								<td class="number"><img src="../../libs/img/common/icon_notice.png" alt="공지"/></td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
+							<tr class="qna_answer">
+								<td colspan="6">
+									<dl class="top_border">
+										<dt>제목</dt>
+										<dd class="ctn_area">블루석 연간권관련 문의건</dd>
+									</dl>
+									<dl>
+										<dt>질문</dt>
+										<dd class="ctn_area">저희 아들은 장애가 있어서 일년 유예를 하여 학교에 입학하였고, 현재 만 12세이지만 초등학교 6학년 학생입니다.
+											재학증명서를 제출하고 어린이 회원에 가입하고 싶은데요, 회원 가입과 회비 납부 방법을 자세하게 알려주시면 감사하겠습니다.
+											저희 아들은 장애가 있어서 일년 유예를 하여 학교에 입학하였고, 현재 만 12세이지만 초등학교 6학년 학생입니다.
+											재학증명서를 제출하고 어린이 회원에 가입하고 싶은데요, 회원 가입과 회비 납부 방법을 자세하게 알려주시면 감사하겠습니다.
+											
+										</dd>
+										<dd class="btn_area">
+											<a href="news_write_01.html" class="btn_reply_edit">글쓰기</a>
+											<a href="news_write_01.html" class="btn_reply_delete">글쓰기</a>
+										</dd>
+									</dl>
+									<dl class="border_none">
+										<dt>질문</dt>
+										<dd class="ctn_area">저희 아들은 장애가 있어서 일년 유예를 하여 학교에 입학하였고, 현재 만 12세이지만 초등학교 6학년 학생입니다.
+											재학증명서를 제출하고 어린이 회원에 가입하고 싶은데요, 회원 가입과 회비 납부 방법을 자세하게 알려주시면 감사하겠습니다.
+										</dd>
+									</dl>
+								</td>
 							</tr>
 							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_unidentified.png" alt="미확인"/></td>
 							</tr>
 							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_identified.png" alt="확인"/></td>
 							</tr>
 							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a><i class="new">new</i><i class="mobile">mobile</i></td>
-								<td>운영자</td>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_unidentified.png" alt="미확인"/></td>
 							</tr>
 							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_identified.png" alt="확인"/></td>
 							</tr>
 							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
+								<td class="number">5909</td>
+								<td class="subject"><a href="news_view_01.html">블루석 연간권관련 문의건<em></em></a></td>
+								<td><a href="" alt="삭제"/><img src="../../libs/img/common/icon_delete.png" alt="확인"/></a></td>
+								<td>werd2000man(백승훈)</td>
 								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
-							</tr>
-							<tr>
-								<td class="number">1000</td>
-								<td class="subject"><a href="">2013 LG트윈스 어린이회원 추가모집 안내</a></td>
-								<td>운영자</td>
-								<td>2013-03-14</td>
-								<td>201303</td>
+								<td><img src="../../libs/img/common/icon_unidentified.png" alt="미확인"/></td>
 							</tr>
 						</tbody>
 					</table>
@@ -275,22 +271,9 @@
 					</div>
 					<div class="article">
 						<div class="board_btn">
-							<a href="#" class="btn_confirm">확인</a>
-							<a href="#" class="btn_cancel">취소</a>
-							<a href="#" class="btn_delete">삭제</a>
-							<a href="#" class="btn_edit">수정</a>
 							<a href="news_write_01.html" class="btn_write">글쓰기</a>
 						</div>
 					</div>
-				</div>
-				<div class="board_caution">
-					<img src="../../libs/img/common/board_caution.png" alt="게시물을 올리실 때 확인해 주세요."/>
-					<ul>
-						<li>본문 및 댓글은 10회 이상 회원들의 신고를 받으면 자동으로 삭제됩니다. (관리원칙상 신고관련 정보 숨김)</li>
-						<li>불건전한 게시물은 관리자에 의해 동의없이 삭제될수 있습니다.</li>
-						<li>게시판에 허위사실 유포 및 비방, 욕설등은 심각한 사이버 범죄에 해당되며 관리자에 의해 삭제될수 있습니다.</li>
-						<li>문의사항이나 건의사항은 [q&amp;a]를 이용하여 주시기 바랍니다.</li>
-					</ul>
 				</div>
 			</div>
 			<!-- /#section -->

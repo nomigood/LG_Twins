@@ -101,7 +101,7 @@ input.z{border:1px solid #cecece; width:255px;height:11px;}
 .board_w_file ul li .btn {margin-left:5px;}
 
 /* 하단 버튼 */
-.board_btn {clear:both;text-align:right;font-size:0;margin-top:12px;height:40px;}
+/*.board_btn {clear:both;text-align:right;font-size:0;margin-top:12px;height:40px;}*/
 .board_btn img {margin-left:2px;margin-right:2px;}
 .board_btn li {float:left;}
 .board_btn li.list {float:right;}
@@ -322,7 +322,7 @@ div.auction_list ul.auct_prd_list li  {
 	position:relative;
 	}
 span.auct_end {position:absolute;top:8px; left:16px;}
-.date {text-align:right;padding:9px 0 14px;margin:0;font-weight:bold;}
+/*.date {text-align:right;padding:9px 0 14px;margin:0;font-weight:bold;}*/
 .date img {vertical-align:middle;}
 div.auction_list div.photo {width: 96px;float: left;clear: left;}
 div.auction_list div.auct_prd_info {padding: 0 0 0 127px;}
