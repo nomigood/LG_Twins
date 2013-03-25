@@ -12,7 +12,7 @@
 .tab .tab_navi {width:100%;table-layout:fixed;}
 .tab .tab_navi tr td {padding:10px;border:1px solid #fff;background:#9f9f9f;text-align:center;}
 .tab .tab_navi tr td:hover {background:#c40059;cursor: pointer;}
-.tab .tab_navi tr td.active {background:url(../img/common/tab_bg.png) no-repeat right bottom;}
+.tab .tab_navi tr td.active {background:#C40452 url(../img/common/tab_bg.png) no-repeat right bottom;}
 .tab .tab_navi tr td a {font-weight:#fff;color:#fff;}
 
 .tab .tab_carousel {position:relative;width:100%;}

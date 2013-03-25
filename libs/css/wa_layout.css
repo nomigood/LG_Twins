@@ -175,8 +175,8 @@ div.cate_year {padding-top:15px;clear:both;height:13px;}
 .mainYscre li {float:left;margin-right:5px;}
 
 
-.mylinkbottom {background: url("/images/icon/mylink_08.gif") no-repeat;width:60px;height:13px;}
-.linkbody {background: url("/images/icon/mylink_05.gif") repeat-y;width:60px;text-align:center;}
+.mylinkbottom {background: url("http://www.lgtwins.com/images/icon/mylink_08.gif") no-repeat;width:60px;height:13px;}
+.linkbody {background: url("http://www.lgtwins.com/images/icon/mylink_05.gif") repeat-y;width:60px;text-align:center;}
 
 div.board_tabmenu {width:809px;margin:0 auto;position:relative;height:40px;}
 div.board_tabmenu li {float:left;margin-right:1px;line-height:0px;font-size:0px;}
