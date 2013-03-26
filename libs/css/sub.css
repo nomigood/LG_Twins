@@ -79,3 +79,25 @@
 .mymileage p.highlight2 {margin:5px auto 0;width:445px;background:#808080;color:#fff}
 
 .mymileage_srch {width:520px;margin:0 auto 20px;padding:10px 0 30px 0;border-bottom:1px dashed #999999;text-align:center;}
+
+/**************************************************************
+ * 사이트맵
+ **************************************************************/
+.new_sitemap {margin-bottom:40px;display:block;overflow:hidden;}
+.new_sitemap dl {float:left;margin-right:27px;}
+.new_sitemap dl dt > a {margin-bottom:3px;width:172px;height:28px;line-height:28px;color:#fff;background:#b4114d;display:block;text-align:center;font-size:13px;font-weight:bold;}
+.new_sitemap dl dd > a {margin-top:2px;text-indent:12px;width:170px;height:22px;line-height:22px;color:#666666;background:#f8f8f8;border:1px solid #e0e0e0;display:block;font-size:12px;}
+.new_sitemap dl dd > a:hover {color: #c81249;}
+.new_sitemap dl dd ul li > a {padding:5px 0;border-bottom:1px dashed #c9c9c9;background:url(../img/common/header_bullet.png) no-repeat 5px 50%;text-indent:12px;font-size:11px;color:#666666;display:block;}
+.new_sitemap a.last {border:none;}
+.new_sitemap dl dd ul li > a:hover {color: #c81249;}
+.new_sitemap dl dd ul li ul li a {background:none;border:none;}
+
+
+
+
+
+
+
+
+

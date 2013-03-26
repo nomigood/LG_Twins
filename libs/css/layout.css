@@ -191,6 +191,7 @@ html,body {width:100%;height:100%}
 #header .sub_visual_club {width:1000px;height:105px;background:url(../img/sub/sub_visual_08.png) no-repeat 0 0;}
 #header .sub_visual_mytwins {width:1000px;height:105px;background:url(../img/sub/sub_visual_09.png) no-repeat 0 0;}
 #header .sub_visual_member {width:1000px;height:105px;background:url(../img/sub/sub_visual_10.png) no-repeat 0 0;}
+#header .sub_visual_sitemap {width:1000px;height:105px;background:url(../img/sub/sub_visual_11.png) no-repeat 0 0;}
 
 
 /**************************************************************
@@ -255,6 +256,10 @@ html,body {width:100%;height:100%}
 #aside .snb li a.mytwins03 {background-position: 0 -532px;}
 #aside .snb li a.mytwins04 {background-position: 0 -546px;}
 #aside .snb li a.mytwins05 {background-position: 0 -560px;}
+#aside .snb li a.member01 {background-position: 0 -574px;}
+#aside .snb li a.member02 {background-position: 0 -588px;}
+#aside .snb li a.member03 {background-position: 0 -602px;}
+#aside .snb li a.sitemap01 {background-position: 0 -616px;}
 
 /**************************************************************
  * snb active
@@ -303,6 +308,10 @@ html,body {width:100%;height:100%}
 #aside .snb li.active a.mytwins03 {background-position: 0 -532px;}
 #aside .snb li.active a.mytwins04 {background-position: 0 -546px;}
 #aside .snb li.active a.mytwins05 {background-position: 0 -560px;}
+#aside .snb li.active a.member01 {background-position: 0 -574px;}
+#aside .snb li.active a.member02 {background-position: 0 -588px;}
+#aside .snb li.active a.member03 {background-position: 0 -602px;}
+#aside .snb li.active a.sitemap01 {background-position: 0 -616px;}
 
 /**************************************************************
  * snb 2depth
@@ -322,6 +331,7 @@ html,body {width:100%;height:100%}
 
 #aside .snb li .snb_2depth li a.about_02_01 {background-position: 0 -78px;}
 #aside .snb li .snb_2depth li a.about_02_02 {background-position: 0 -91px;}
+#aside .snb li .snb_2depth li a.about_02_03 {background-position: 0 -130px;}
 
 #aside .snb li .snb_2depth li a.about_03_01 {background-position: 0 -104px;}
 #aside .snb li .snb_2depth li a.about_03_02 {background-position: 0 -117px;}

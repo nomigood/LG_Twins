@@ -101,7 +101,7 @@
 .board_view_header p .date {float:left;margin-left:47px;}
 .board_view_header p .hit {float:right;margin-right:28px;}
 .board_view {margin-bottom:30px;padding:30px 20px;width:770px;border-bottom:1px solid #e0e0e0;}
-.board_view p {width:100%;margin:0.5em}
+.board_view p {width:100%;margin:1em;line-height:150%;}
 .board_view p.img {text-align:center;}
 
 /**************************************************************
@@ -226,6 +226,10 @@
 .btn_replysrc {float:left;width:79px;height:23px;border:none;background:url(../img/common/board_replysrc_btn.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 .btn_reply_edit {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_edit.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 .btn_reply_delete {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_delete.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_reply_regi {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_regi.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_reply_regi2 {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_regi2.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_question_edit {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_question_edit.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
+.btn_reply_srch {float:left;width:65px;height:23px;border:none;background:url(../img/common/btn_reply_srch.png) repeat-x 0 0;text-indent:-9000px;display:inline-block;}
 
 /**************************************************************
  * 주의사항
