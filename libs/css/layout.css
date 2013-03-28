@@ -13,6 +13,7 @@
 @import url("wa_board.css");
 @import url("wa_layout.css");
 @import url("wa_sub.css");
+@import url("wa_main.css");
 
 /* 폴더별 -------------------- */
 @import url("community.css");
@@ -42,12 +43,12 @@ body,input,textarea,select,button,table{font-family:'맑은고딕',Malgun Gothic
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 body {line-height: 1;background:none !important;}
-ol, ul {list-style: none;}
+ol, ul, li {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse;border-spacing: 0;}
 input[type=button] {cursor:pointer;}
-caption {visibility: hidden;font-size:0;}
+legend, caption {visibility: hidden;font-size:0;}
 
 /*ie 투명도*/
  /*-ms-filter"progidDXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -98,13 +99,13 @@ html,body {width:100%;height:100%}
 #header .logo {position:absolute;left:0;bottom:5px;width:112px;height:39px;background:url(../img/common/header_logo.png);text-indent:-9000px;font-size:0;overflow:hidden}
 #header .logo a {width:112px;height:39px;display:block;overflow:hidden;}
 #header .mnb {position:absolute;right:0;bottom:5px;} 
-#header .mnb a {float:left;margin-left:10px;text-indent:7px;background:url(../img/common/header_bullet.png) no-repeat 0 50%;}
+#header .mnb a {float:left;margin-left:10px;padding:1px 0;text-indent:7px;background:url(../img/common/header_bullet.png) no-repeat 0 50%;}
 
 /**************************************************************
  * gnb
  **************************************************************/ 
 #header .gnb {padding:10px 0 0 150px;width:850px;height:25px;}
-#header .gnb li {float:left;width:105px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
+#header .gnb li {float:left;width:120px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
 #header .gnb li:last-of-type {padding-right:0;background:none;}
 #header .gnb li a {margin:0 auto;width:auto;height:16px;background: url(../img/common/gnb_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;text-align:center;}
 #header .gnb li a.active,
@@ -127,8 +128,8 @@ html,body {width:100%;height:100%}
 #header .gnb_2depth .gnb_img_04 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_04.png) no-repeat 0 0;}
 #header .gnb_2depth .gnb_img_05 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_05.png) no-repeat 0 0;}
 #header .gnb_2depth .gnb_img_06 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_06.png) no-repeat 0 0;}
-#header .gnb_2depth .gnb_img_07 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_07.png) no-repeat 0 0;}
-#header .gnb_2depth .gnb_img_08 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_08.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_08 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_07.png) no-repeat 0 0;}
+#header .gnb_2depth .gnb_img_07 {float:left;width:141px;height:205px;background: url(../img/common/gnb_img_08.png) no-repeat 0 0;}
 
 /**************************************************************
  * gnb 2depth
@@ -137,7 +138,7 @@ html,body {width:100%;height:100%}
 #header .gnb_2depth ul {float:left;margin-bottom:15px;height:190px;background:url(../img/common/gnb_bar_02.png) repeat-y right top;}
 #header .gnb_2depth ul.news {margin-left:7px;}
 #header .gnb_2depth ul.customer {width:50px;background: none;}
-#header .gnb_2depth ul li {width:90px;padding:0 0 15px 15px;}
+#header .gnb_2depth ul li {width:95px;padding:0 0 15px 25px;}
 #header .gnb_2depth ul li a {width:76px;height:13px;background: url(../img/common/gnb_2depth_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
 #header .gnb_2depth li a:hover {background: url(../img/common/gnb_2depth_on.png) no-repeat -76px 0;}
 #header .gnb_2depth li a.news01 {background-position: 0 0}
@@ -354,6 +355,6 @@ html,body {width:100%;height:100%}
 #footer .logo a {width:103px;height:29px;display:block;overflow:hidden;}
 #footer .foot_ctn {float:left;margin-left:50px;width:auto;height:auto;overflow:hidden}
 #footer .foot_ctn span {margin-bottom:10px;display:block;overflow:hidden;}
-#footer .foot_ctn a {padding:0 8px 10px;height:13px;line-height:13px;background:url(../img/common/foot_bar.png) no-repeat 0 20%;color:#606060;font-weight:bold;}
+#footer .foot_ctn a {padding:1px 8px 10px;height:15px;line-height:15px;background:url(../img/common/foot_bar.png) no-repeat 0 30%;color:#606060;font-weight:bold;}
 #footer .foot_ctn address {line-height:16px;color:#989898;}
 #footer .Secured {float:right;width:auto;height:auto;overflow:hidden}

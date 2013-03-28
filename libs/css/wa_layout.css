@@ -100,7 +100,7 @@ div.africe_top_right {float:right;width:300px; position:absolute; right:-35px; b
 div.fanpaty_toptxt {}
 
 
-div.bestgal_box {width:810px;height:213px;background: url("/community/gallery/imgs/galtop_bg.jpg") no-repeat;text-align:center;position:relative;}
+div.bestgal_box {width:810px;height:213px;background: url("/community/gallery/imgs/galtop_bg.jpg") no-repeat;text-align:center;position:relative;overflow:hidden;}
 div.bestgalwa {padding-top:10px;width:760px;text-align:center;margin:0 auto;position:relative;}
 ul.bestgal_ul {width:760px;text-align:center;position:relative;margin:0 auto;}
 ul.bestgal_ul li {width:190px;background: url("/images/board/t_ln01.gif") no-repeat right;height:210px;text-align:center;display:inline;float:left;position:relative;}
@@ -165,7 +165,7 @@ div.poll_right {position:relative;float:right ; background: url("/community/cybe
 div.polltop {background: url("/community/cyberpoll/imgs/poll_top.gif") no-repeat;height:9px;}
 div.pollbottom {background: url("/community/cyberpoll/imgs/poll_bttom.gif") no-repeat;height:9px;}
 
-div.txt_box {text-align:right; padding:5px 0px 5px 0px; color:#000000;height:20px;}
+div.txt_box {text-align:right; padding:5px 0px 5px 0px; color:#000000;height:20px;width:100%;height;overflow:hidden;}
 
 div.cate_year {padding-top:15px;clear:both;height:13px;}
 
@@ -284,7 +284,7 @@ div.commondin-repper {position:relative;background: #f0f0f0;height:90px;width:10
 .nboard_re_list {background: #f0f0f0 url("/imgs/ln_dot1.gif") repeat-x top;_width:790px;margin:0px;padding:0px; }
 .nboard_re_list li {background: url("/imgs/ln_dot1.gif") repeat-x bottom;position:realtive;}
 .nboard_re_name {width:100%;position:relative;height:20px;padding:10px 10px 0 10px; }
-.nboard_re_name li {float:left;background: none;line-height:17px;margin-right:3px;color:#000;}
+.nboard_re_name li {float:left;background: none;line-height:17px;margin-right:3px;color:#000;border:none;}
 .nboard_re_name li p{margin-top:0;}
 .nboard_re_name li.nre_data  {float:right;padding-right:18px;color:#5f6164;}
 .nboard_re_name li.nre_data2  {padding-left:1px;font-weight:bold; color:#5f6164;}

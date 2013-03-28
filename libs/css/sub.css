@@ -20,6 +20,8 @@
 .tab .tab_carousel table tr td {padding:13px 0;border-bottom:1px solid #bdbdbd;text-align:center;background:url(../img/common/tab_bar.png) no-repeat right 50%}
 .tab .tab_carousel table tr td a {color:#999999;font-weight:bold;}
 .tab .tab_carousel table tr td a:hover {color:#c40059;}
+.tab .tab_carousel table tr td.active {color:#c40059}
+.tab .tab_carousel table tr td.active a {color:#c40059}
 .tab .tab_carousel a.prev {position:absolute;left:0;top:0;width:10px;height:36px;background:url(../img/common/tab_prev.png) no-repeat left 53%;text-indent:-9000px;}
 .tab .tab_carousel a.next {position:absolute;right:0;top:0;width:10px;height:36px;background:url(../img/common/tab_next.png) no-repeat right 53%;text-indent:-9000px;}
 

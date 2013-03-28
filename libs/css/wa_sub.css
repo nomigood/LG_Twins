@@ -236,6 +236,9 @@ div.bottom-btntikect li.mr2 {margin-right:20px;}
 .al_cen{float:left;text-align:center;margin-left:120px;}
 
 div.board-ctn0inner {width:680px;position:relative;margin:0 auto;}
+div.board-ctn0inner .ticket_table {border:1px solid #dcdcdc;}
+div.board-ctn0inner .ticket_table th,
+div.board-ctn0inner .ticket_table td {padding:5px;border:1px solid #dcdcdc;}
 .ticket-tb th {border:1px solid #c3c1aa;background: #f6f3ec;color:#9e7827;padding:6px 0 3px 0;}
 .ticket-tb th.wt {background:#ffffff;}
 .ticket-tb td {border:1px solid #c3c1aa;height:27px;background: #fef8de;text-align:center;}
@@ -357,7 +360,7 @@ div.playprofilebox {width:809px;height:209px;background: url("/images/player/pro
 /*div.player_photoname {width:118px;height:143px;position:relative;float:left;margin-left:7px;_margin-left:4px;}*/
 div.player_photoname {width:118px;height:156px;position:relative;float:left;margin-left:7px;_margin-left:4px;}
 
-div.player_tbbox01 {float:left;margin-left:35px;position:relative;padding-top:3px;padding-left:7px;}
+div.player_tbbox01 {float:left;width:610px;margin-left:35px;position:relative;padding-top:3px;padding-left:7px;}
 .playinfotb th {text-align:left;height:27px;}
 .playinfotb td {height:27px;}
 
@@ -700,7 +703,7 @@ div.yakguan {background: url('/member/imgs/agreement_bg.gif') no-repeat bottom; 
 .login h3{position:absolute; left:20px; top:35px;}
 
 .login_area{width:306px;position:absolute;right:24px; top:50px;}
-.login_area li{margin-bottom:4px;margin-top:5px;}
+.login_area li{margin-bottom:10px;margin-top:5px;}
 .login_area_fail{width:306px;position:absolute;left:150px; top:50px; margin-top:10px;}
 .login_area_fail li{margin-bottom:4px;}
 

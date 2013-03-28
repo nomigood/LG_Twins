@@ -6,7 +6,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="stylesheet" href="libs/css/layout.css" />
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="libs/js/ui.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#2depth').hide();
+			var gnb = $('#gnb');
+			var depth = $('#2depth');
+		   
+			gnb.bind('mouseenter mouseover',function(){
+				$(depth).fadeIn('fast');
+			});
+		   
+		   	depth.bind('mouseleave',function() {
+				$(depth).fadeOut('fast');
+			});
+			
+			depth.find('ul').mouseover(function(){
+				if($('#2depth_img').hasClass('gnb_img_01')){
+					$('#2depth_img').removeClass().addClass('gnb_img_0'+$(this).index());
+				};
+			});
+		 
+			depth.find('ul').mouseleave(function(){
+				$('#2depth_img').removeClass().addClass('gnb_img_01');
+			});
+		});
+	</script>
 </head>
 <body>
 	<!-- #wrap -->
@@ -37,13 +61,13 @@
 						<li><a href="html/about/about_01.html" class="about">구단소개</a></li>
 						<li><a href="html/mall/mall_01.html" class="mall">쇼핑몰</a></li>
 						<li><a href="html/community/community_01.html" class="community">팬커뮤니티</a></li>
-						<li><a href="html/club/club_01.html" class="club">보이스팬클럽</a></li>
+						<!-- <li><a href="html/club/club_01.html" class="club">보이스팬클럽</a></li> -->
 						<li class="end"><a href="../customer/customer_01.html" class="customer">고객문의</a></li>
 					</ul>
 				</div>
 				<!-- //gnb -->
 				<!-- gnb 2depth -->
-				<div id="2depth" class="gnb_2depth dnone">
+				<div id="2depth" class="gnb_2depth">
 					<span id="2depth_img" class="gnb_img_01"></span>
 					<ul class="news">
 						<li><a href="" class="news01">트윈스뉴스</a></li>
@@ -87,12 +111,12 @@
 						<li><a href="" class="community06">이벤트</a></li>
 						<li><a href="" class="community07">오늘의 트윈스팬</a></li>
 					</ul>
-					<ul class="club">
+					<!-- <ul class="club">
 						<li><a href="" class="club01">서비스안내</a></li>
 						<li><a href="" class="club02">팬이 뽑은MVP</a></li>
 						<li><a href="" class="club03">모닝콜</a></li>
 						<li><a href="" class="club04">보이스매거진</a></li>
-					</ul>
+					</ul> -->
 					<ul class="customer">
 						<li><a href="" class="customer01">FAQ</a></li>
 						<li><a href="" class="customer02">Q&amp;A</a></li>
@@ -115,123 +139,125 @@
 		<div id="container">
 			<!-- 게임정보 -->
 			<div class="game_info">
-				<ul class="schedule">
-					<li class="title"><h1><img src="libs/img/main/game_date.png" alt="경기일정" /></h1></li>
-					<li>
-						<table>
-							<caption class="dnone">경기일정표</caption>
-							<thead>
-								<tr>
-									<th>날짜</th>
-									<th>시간</th>
-									<th>장소</th>
-									<th>상대팀</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>17:00</td>
-									<td>잠실야구장</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>17:00</td>
-									<td>잠실야구장</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>17:00</td>
-									<td>잠실야구장</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>17:00</td>
-									<td>잠실야구장</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>17:00</td>
-									<td>잠실야구장</td>
-									<td>넥센</td>
-								</tr>
-							</tbody>
-						</table>
-					</li>
-				</ul>
-				<ul class="next_game dnone">
-					<li><h1><img src="libs/img/main/next_game.png" alt="다음경기" /></h1></li>
-					<li><p>2013-03-22 PM 1:00</p></li>
-					<li class="team">
-						<ul class="home">
-							<li><img src="libs/img/main/lgtwins.png" alt="LG Twins"/></li>
-							<li><p>LG트윈스</p></li>
-						</ul>
-						<ul class="away">
-							<li><img src="libs/img/main/lions.png" alt="Samsung Lions"/></li>
-							<li><p>라이온즈</p></li>
-						</ul>
-					</li>
-				</ul>
-				<!-- on air width:370px;height:208px; -->
-				<ul class="next_game">
-					<li>
-						<div class="on_air"><img src="libs/img/main/on_air.png" alt="on_air" /></div>
-					</li>
-				</ul>
-				<!-- //on air width:370px;height:208px; -->
-				<ul class="schedule">
-					<li class="title"><h1><img src="libs/img/main/game_results.png" alt="경기결과" /></h1></li>
-					<li>
-						<table>
-							<caption class="dnone">경기결과표</caption>
-							<thead>
-								<tr>
-									<th>날짜</th>
-									<th>장소</th>
-									<th>결과</th>
-									<th>상대팀</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>잠실야구장</td>
-									<td>8:0(승)</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>잠실야구장</td>
-									<td>8:0(승)</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>잠실야구장</td>
-									<td>8:0(승)</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>잠실야구장</td>
-									<td>8:0(승)</td>
-									<td>넥센</td>
-								</tr>
-								<tr>
-									<td>6/6일(수)</td>
-									<td>잠실야구장</td>
-									<td>8:0(승)</td>
-									<td>넥센</td>
-								</tr>
-							</tbody>
-						</table>
-					</li>
-				</ul>
+				<div class="game_info_wrap">
+					<ul class="schedule">
+						<li class="title"><h1><img src="libs/img/main/game_date.png" alt="경기일정" /></h1></li>
+						<li>
+							<table>
+								<caption class="dnone">경기일정표</caption>
+								<thead>
+									<tr>
+										<th>날짜</th>
+										<th>시간</th>
+										<th>장소</th>
+										<th>상대팀</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>17:00</td>
+										<td>잠실야구장</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>17:00</td>
+										<td>잠실야구장</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>17:00</td>
+										<td>잠실야구장</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>17:00</td>
+										<td>잠실야구장</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>17:00</td>
+										<td>잠실야구장</td>
+										<td>넥센</td>
+									</tr>
+								</tbody>
+							</table>
+						</li>
+					</ul>
+					<ul class="next_game dnone">
+						<li><h1><img src="libs/img/main/next_game.png" alt="다음경기" /></h1></li>
+						<li><p>2013-03-22 PM 1:00</p></li>
+						<li class="team">
+							<ul class="home">
+								<li><img src="libs/img/main/lgtwins.png" alt="LG Twins"/></li>
+								<li><p>LG트윈스</p></li>
+							</ul>
+							<ul class="away">
+								<li><img src="libs/img/main/lions.png" alt="Samsung Lions"/></li>
+								<li><p>라이온즈</p></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- on air width:370px;height:208px; -->
+					<ul class="next_game">
+						<li>
+							<div class="on_air"><img src="libs/img/main/on_air.png" alt="on_air" /></div>
+						</li>
+					</ul>
+					<!-- //on air width:370px;height:208px; -->
+					<ul class="schedule">
+						<li class="title"><h1><img src="libs/img/main/game_results.png" alt="경기결과" /></h1></li>
+						<li>
+							<table>
+								<caption class="dnone">경기결과표</caption>
+								<thead>
+									<tr>
+										<th>날짜</th>
+										<th>장소</th>
+										<th>결과</th>
+										<th>상대팀</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>잠실야구장</td>
+										<td>8:0(승)</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>잠실야구장</td>
+										<td>8:0(승)</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>잠실야구장</td>
+										<td>8:0(승)</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>잠실야구장</td>
+										<td>8:0(승)</td>
+										<td>넥센</td>
+									</tr>
+									<tr>
+										<td>6/6일(수)</td>
+										<td>잠실야구장</td>
+										<td>8:0(승)</td>
+										<td>넥센</td>
+									</tr>
+								</tbody>
+							</table>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<!-- //게임정보 -->
 			<!-- main_ctn -->
