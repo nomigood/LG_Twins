@@ -33,6 +33,9 @@
 #container .game_info .game_info_wrap ul.next_game li ul li p {margin-top:5px}
 
 #container .game_info .game_info_wrap ul.next_game .on_air {position:relative;margin:1px auto 0 auto;width:412px;height:218px;}
+#container .game_info .game_info_wrap ul.next_game .on_air .main_tv {position:absolute;padding:10px;left:10px;bottom:5px;width:375px;background: url(../img/main/bg_tvtxt.png) repeat;}
+#container .game_info .game_info_wrap ul.next_game .on_air .main_tv p {margin:0;padding:0;text-align:left;line-height:17px;}
+#container .game_info .game_info_wrap ul.next_game .on_air .main_tv a {color:#fff;}
 
 #container .main_ctn {margin:30px auto 40px auto;width:933px;}
 #container .main_ctn .left_columns {width:230px;}

@@ -610,6 +610,7 @@ p.ipin-btn {text-align:center; .margin-top:-10px;}
 
 
 div.ipinbox2 {background: url("/member/imgs/bg_findpw2.gif") no-repeat;width:315px;height:275px;position:relative;}
+div.ipinbox3 {margin:0 auto;background: url("/member/imgs/bg_findidd.gif") no-repeat;width:315px;height:215px;position:relative;}
 p.find_pw {text-align:center;padding-top:20px; .padding-top:10px; padding-bottom:10px;}
 
 div.centerbtn {text-align:center;position:absolute;top:190px;width:380px;left:45px;}

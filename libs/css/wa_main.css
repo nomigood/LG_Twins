@@ -29,15 +29,13 @@ div.tvtext {background: url("/images/main/bg_tvtxt.png") no-repeat; padding-left
 div#mm {color:#ffffff;font-size:12px;}
 div#aa {color:#ffffff;font-weight:bold;font-size:12px;}
 div.tvtext ul {position:relative;}
-div.tvtext li.tit {margin:-5px 0 3px 0;color:#ffffff;position:relative;text-align:left;}
-div.tvtext li.txt {font-size:12px;letter-spacing:-1px;color:#ffffff;position:relative;text-align:left;}
+div.tvtext li.tit {margin:-5px 0 3px 0;_margin:0 0 3px 0;color:#ffffff;position:relative;text-align:left;}
+div.tvtext li.txt {margin-top:5px;font-size:12px;letter-spacing:-1px;color:#ffffff;position:relative;text-align:left;}
 
-
-
-ul.livetv {}
+ul.livetv {width:412px;height:218px;}
 ul.livetv li {float:left;}
-ul.livetv li.tv {width:197px;float:left;}
-ul.livetv li.chat {float:right;padding-top:1px;width:105px;height:227px;overflow:hidden;}
+ul.livetv li.tv {width:412px;float:left;}
+ul.livetv li.chat {position:absolute;top:0;right:0;width:105px;height:217px;overflow:hidden;z-index:15000;}
 
 div.wa_mainscroll {text-align:right;height:84px;position:relative;clear:both;width:970px;}
 div.wa_scrooll {width:844px;height:84px;position:relative;background: url("/images/main/scroll_bg.gif") no-repeat;float:right;}

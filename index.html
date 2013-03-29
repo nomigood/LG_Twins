@@ -6,31 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="stylesheet" href="libs/css/layout.css" />
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#2depth').hide();
-			var gnb = $('#gnb');
-			var depth = $('#2depth');
-		   
-			gnb.bind('mouseenter mouseover',function(){
-				$(depth).fadeIn('fast');
-			});
-		   
-		   	depth.bind('mouseleave',function() {
-				$(depth).fadeOut('fast');
-			});
-			
-			depth.find('ul').mouseover(function(){
-				if($('#2depth_img').hasClass('gnb_img_01')){
-					$('#2depth_img').removeClass().addClass('gnb_img_0'+$(this).index());
-				};
-			});
-		 
-			depth.find('ul').mouseleave(function(){
-				$('#2depth_img').removeClass().addClass('gnb_img_01');
-			});
-		});
-	</script>
+	<script type="text/javascript" src="libs/js/ui.js"></script>
 </head>
 <body>
 	<!-- #wrap -->
@@ -203,11 +179,28 @@
 						</li>
 					</ul>
 					<!-- on air width:370px;height:208px; -->
-					<ul class="next_game">
+					<ul class="next_game dnone">
 						<li>
 							<div class="on_air"><img src="libs/img/main/on_air.png" alt="on_air" /></div>
 						</li>
 					</ul>
+					
+					<ul class="next_game">
+						<li>
+							<div class="on_air">
+								<div id="tvImgInfo" class="imgflow"><img src="http://center.lgtwins.com/twins/themePhoto/themePic/2013/thumb_1_2013223410824.jpg" width="412" height="218"></div>
+								
+								<div class="main_tv" id="aa" onmouseover="this.id='aa';" onmouseout="this.id='mm'" style="cursor:pointer;">					
+									
+										<p id="title1"><a href="/twinsnews/twinsnews/twinsNewsView.jsp?sn=13865">[트윈스뉴스] 주말 잠실두산전 시범경기 안내<img src="http://www.lgtwins.com/images/main/btn_imgmore.png" width="38" height="8" alt="more"></a></p>
+										<p id="title2"><a href="/twinsnews/twinsnews/twinsNewsView.jsp?sn=13865">13시 경기 시작, 무료입장</a></p>
+													
+								</div>
+							</div>
+
+						</li>
+					</ul>
+					
 					<!-- //on air width:370px;height:208px; -->
 					<ul class="schedule">
 						<li class="title"><h1><img src="libs/img/main/game_results.png" alt="경기결과" /></h1></li>

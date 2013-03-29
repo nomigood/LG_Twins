@@ -103,6 +103,8 @@
 .board_view {margin-bottom:30px;padding:30px 20px;width:770px;border-bottom:1px solid #e0e0e0;}
 .board_view p {width:100%;margin:1em;line-height:150%;}
 .board_view p.img {text-align:center;}
+.board_view table tr td {line-height:17px;}
+
 
 /**************************************************************
  * 글쓰기

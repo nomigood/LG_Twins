@@ -96,8 +96,8 @@ html,body {width:100%;height:100%}
  * header
  **************************************************************/
 #header .top_area {height:55px;}
-#header .logo {position:absolute;left:0;bottom:5px;width:112px;height:39px;background:url(../img/common/header_logo.png);text-indent:-9000px;font-size:0;overflow:hidden}
-#header .logo a {width:112px;height:39px;display:block;overflow:hidden;}
+#header .logo {position:absolute;left:0;bottom:5px;width:92px;height:45px;background:url(../img/common/header_logo.png) no-repeat;text-indent:-9000px;font-size:0;overflow:hidden}
+#header .logo a {width:92px;height:45px;display:block;overflow:hidden;}
 #header .mnb {position:absolute;right:0;bottom:5px;} 
 #header .mnb a {float:left;margin-left:10px;padding:1px 0;text-indent:7px;background:url(../img/common/header_bullet.png) no-repeat 0 50%;}
 
@@ -105,7 +105,7 @@ html,body {width:100%;height:100%}
  * gnb
  **************************************************************/ 
 #header .gnb {padding:10px 0 0 150px;width:850px;height:25px;}
-#header .gnb li {float:left;width:120px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
+#header .gnb li {float:left;width:116px;height:16px;text-align:center;background:url(../img/common/gnb_bar.png) no-repeat right 50%;}
 #header .gnb li:last-of-type {padding-right:0;background:none;}
 #header .gnb li a {margin:0 auto;width:auto;height:16px;background: url(../img/common/gnb_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;text-align:center;}
 #header .gnb li a.active,
@@ -138,8 +138,8 @@ html,body {width:100%;height:100%}
 #header .gnb_2depth ul {float:left;margin-bottom:15px;height:190px;background:url(../img/common/gnb_bar_02.png) repeat-y right top;}
 #header .gnb_2depth ul.news {margin-left:7px;}
 #header .gnb_2depth ul.customer {width:50px;background: none;}
-#header .gnb_2depth ul li {width:95px;padding:0 0 15px 25px;}
-#header .gnb_2depth ul li a {width:76px;height:13px;background: url(../img/common/gnb_2depth_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
+#header .gnb_2depth ul li {width:110px;padding:0 4px 15px 2px;}
+#header .gnb_2depth ul li a {width:110px;height:13px;background: url(../img/common/gnb_2depth_off.png) no-repeat 0 0;text-indent: -9000px;display:block;overflow:hidden;}
 #header .gnb_2depth li a:hover {background: url(../img/common/gnb_2depth_on.png) no-repeat -76px 0;}
 #header .gnb_2depth li a.news01 {background-position: 0 0}
 #header .gnb_2depth li a.news02 {background-position: 0 -13px;}
@@ -193,6 +193,7 @@ html,body {width:100%;height:100%}
 #header .sub_visual_mytwins {width:1000px;height:105px;background:url(../img/sub/sub_visual_09.png) no-repeat 0 0;}
 #header .sub_visual_member {width:1000px;height:105px;background:url(../img/sub/sub_visual_10.png) no-repeat 0 0;}
 #header .sub_visual_sitemap {width:1000px;height:105px;background:url(../img/sub/sub_visual_11.png) no-repeat 0 0;}
+#header .sub_visual_none {width:1000px;height:105px;background:url(../img/sub/sub_visual_none.png) no-repeat 0 0;}
 
 
 /**************************************************************
@@ -357,4 +358,4 @@ html,body {width:100%;height:100%}
 #footer .foot_ctn span {margin-bottom:10px;display:block;overflow:hidden;}
 #footer .foot_ctn a {padding:1px 8px 10px;height:15px;line-height:15px;background:url(../img/common/foot_bar.png) no-repeat 0 30%;color:#606060;font-weight:bold;}
 #footer .foot_ctn address {line-height:16px;color:#989898;}
-#footer .Secured {float:right;width:auto;height:auto;overflow:hidden}
+#footer .Secured {float:right;margin:-15px 17px 0 0;width:100px;height:72px;overflow:hidden}
